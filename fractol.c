@@ -1,25 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fdf.c                                              :+:      :+:    :+:   */
+/*   fractol.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkuvalis <kkuvalis@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jbashiri <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/03/17 17:30:14 by jbashiri          #+#    #+#             */
-/*   Updated: 2019/05/08 10:17:44 by kkuvalis         ###   ########.fr       */
+/*   Created: 2019/06/13 12:07:58 by jbashiri          #+#    #+#             */
+/*   Updated: 2019/06/13 12:08:02 by jbashiri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fractol.h"
 
-
 void            mot(t_var *var, t_window *win)
 {
 	double Cx, Cy;
-	const double CxMin = -2.5;
-	const double CxMax = 1.5;
-	const double CyMin = -2.0;
-	const double CyMax = 2.0;
+	const double CxMin = -2.5;//-2.5
+	const double CxMax = 1.5;//1.5
+	const double CyMin = -2.0;//-2.0
+	const double CyMax = 2.0;//2.0
 	double PixelWidth = (CxMax - CxMin) / SIZEX;
 	double PixelHeight = (CyMax - CyMin) / SIZEY;
 	int Iteration;
@@ -54,18 +53,18 @@ void            mot(t_var *var, t_window *win)
 			}
 			if (Iteration == IterationMax)
 			{
-				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x000000);
+				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x00FF00);
 			}
-			else if (Iteration == 2)
-				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0xAAAAAA);
-			else if (Iteration > 1 && Iteration < 10)
-				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x777777);
-			else if (Iteration >= 10 && Iteration < 50)
-				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x333333);
-			else if (Iteration >= 50 && Iteration < IterationMax)
-				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0xdddddd);
+//			else if (Iteration == 2)
+//				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0xAAAAAA);
+//			else if (Iteration > 1 && Iteration < 10)
+//				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x777777);
+//			else if (Iteration >= 10 && Iteration < 50)
+//				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x333333);
+//			else if (Iteration >= 50 && Iteration < IterationMax)
+//				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0xdddddd);
 			else
-				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0xFFFFFF);
+				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x000000);
 			var->i++;
 			var->x++;
 		}
@@ -81,7 +80,7 @@ void			fractol(t_window *win)
 	win->win = mlx_new_window(win->mlx, SIZEX, SIZEY,
 		"fractol");
 	mot(var, win);
-//	controls(win);
+	controls(win);
 	mlx_loop(win->mlx);
 }
 

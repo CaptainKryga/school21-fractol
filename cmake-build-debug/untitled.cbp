@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="fractol"/>
+		<Option title="untitled"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="fractol">
-				<Option output="/Users/jbashiri/Desktop/untitled/cmake-build-debug/fractol" prefix_auto="0" extension_auto="0"/>
+			<Target title="untitled">
+				<Option output="/Users/jbashiri/Desktop/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jbashiri/Desktop/untitled/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 fractol"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="fractol/fast">
-				<Option output="/Users/jbashiri/Desktop/untitled/cmake-build-debug/fractol" prefix_auto="0" extension_auto="0"/>
+			<Target title="untitled/fast">
+				<Option output="/Users/jbashiri/Desktop/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jbashiri/Desktop/untitled/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,7 +73,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 fractol/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jbashiri/Desktop/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,25 +81,25 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/jbashiri/Desktop/untitled/fractol.c">
-			<Option target="fractol"/>
+			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/jbashiri/Desktop/untitled/fractol.h">
-			<Option target="fractol"/>
+			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/jbashiri/Desktop/untitled/functions_change_color.c">
-			<Option target="fractol"/>
+			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/jbashiri/Desktop/untitled/functions_key_code.c">
-			<Option target="fractol"/>
+			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/jbashiri/Desktop/untitled/functions_malloc.c">
-			<Option target="fractol"/>
+			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/jbashiri/Desktop/untitled/functions_support.c">
-			<Option target="fractol"/>
+			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/jbashiri/Desktop/untitled/keycode.h">
-			<Option target="fractol"/>
+			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/jbashiri/Desktop/untitled/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

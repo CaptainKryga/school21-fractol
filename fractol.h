@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fdf.h                                              :+:      :+:    :+:   */
+/*   fractol.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkuvalis <kkuvalis@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jbashiri <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/03/17 17:29:27 by jbashiri          #+#    #+#             */
-/*   Updated: 2019/05/08 13:40:15 by kkuvalis         ###   ########.fr       */
+/*   Created: 2019/06/13 12:07:58 by jbashiri          #+#    #+#             */
+/*   Updated: 2019/06/13 12:08:02 by jbashiri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include "libftprintf/ft_printf.h"
 # include "libftprintf/libft/libft.h"
 # include "libftprintf/libft/get_next_line.h"
+# include "keycode.h"
 # include <fcntl.h>
 # include <mlx.h>
 # include <math.h>
@@ -30,6 +31,13 @@ typedef struct              s_pos
 	int						flag;
 	int						colour;
 }							t_pos;
+
+typedef struct              s_color
+{
+	int                     red;
+	int                     green;
+	int                     blue;
+}                           t_color;
 
 typedef struct              s_var
 {
@@ -65,8 +73,8 @@ int							main(int argc, char **argv);
 /*
  * options
  */
-//void						controls(t_window *win);
-
+void			controls(t_window *win);
+int				key_press(int key, void *fdf);
 
 
 #endif

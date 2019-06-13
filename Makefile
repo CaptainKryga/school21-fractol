@@ -119,7 +119,9 @@ SRC_PRINTF =	analise.c\
 				print_string.c
 SRC =			fractol.c\
                 functions_malloc.c\
-                functions_support.c
+                functions_support.c\
+                functions_key_code.c\
+                functions_change_color.c
 INCLUDE = 		-Ilibftprintf\
 			   	-Ilibftprintf/libft
 HEAD =			fractol.h\

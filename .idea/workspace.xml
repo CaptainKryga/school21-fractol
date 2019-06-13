@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="untitled" targetName="untitled" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20a6efaf-b91c-4298-9e94-bf1d7b68b4f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../fractol/functions_malloc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fractol/functions_support.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fractol/mandelbrot.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fdf/function_malloc_structure.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fdf/function_malloc_structure.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fdf/function_rotate.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fdf/function_rotate.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fdf/function_tick_rate.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fdf/function_tick_rate.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/.idea/lemin2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/algoritm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/algoritm.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/functions_add.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/functions_check.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/functions_free.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/functions_malloc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/functions_path.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/functions_restart.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/functions_search.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/help.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_char.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_float_and_l.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_float_upl.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_h_hh_unsigned_integer.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_h_hh_upx.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_h_hh_x.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_h_o.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_hh_o.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_j.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_l_ll_u.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_l_ll_upx.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_l_ll_x.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_l_o.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_ll_o.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_pointer.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_procent.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_str.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_three.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_two.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_u.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_upx.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analise_x.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analyse_integer.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/analyse_o.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/check_flags_di.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/check_flags_upxxuo.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/check_flags_upxxuo2.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/create_struct.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/float_help.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/float_help_part_two.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/float_help_part_two_upl.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/float_help_upl.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/ft_litoa.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/ft_llitoa.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/ft_printf.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/ft_printf_three.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/ft_printf_two.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/ft_width_for_int.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_atoi.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_atoi_error.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_atoi_hex.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_bzero.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_copyuntil.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_isalnum.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_isalpha.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_isascii.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_isdigit.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_isprint.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_itoa.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_lstadd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_lstdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_lstdelone.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_lstiter.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_lstmap.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_lstnew.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_memalloc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_memccpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_memchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_memcmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_memcpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_memdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_memmove.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_memset.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_power.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_putchar.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_putchar_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_putendl.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_putendl_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_putnbr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_putnbr_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_putstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_putstr_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strcat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strclr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strcmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strcpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strdup.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strequ.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_striter.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_striteri.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strjoin.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strjoinch.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strlcat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strlen.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strmap.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strmapi.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strncat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strncmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strncpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strnequ.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strnew.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strnstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strrchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strsplit.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strsub.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_strtrim.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_tolower.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/ft_toupper.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/libft/get_next_line.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/new.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/print_null_i.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/print_pointer.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/libftprintf/print_string.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/print.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/lemin2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/lemin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/lemin.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/lemin.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/lemin.dSYM/Contents/Resources/DWARF/lemin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/cmake-build-debug/lemin2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/functions_add.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/functions_check.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/functions_free.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/functions_malloc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/functions_path.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/functions_restart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/functions_search.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/head.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/help.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/lemin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_char.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_float_and_l.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_float_upl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_h_hh_unsigned_integer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_h_hh_upx.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_h_hh_x.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_h_o.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_hh_o.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_j.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_l_ll_u.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_l_ll_upx.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_l_ll_x.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_l_o.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_ll_o.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_pointer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_procent.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_str.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_three.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_two.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_u.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_upx.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analise_x.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analyse_integer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/analyse_o.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/check_flags_di.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/check_flags_upxxuo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/check_flags_upxxuo2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/create_struct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/float_help.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/float_help_part_two.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/float_help_part_two_upl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/float_help_upl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/ft_litoa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/ft_llitoa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/ft_printf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/ft_printf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/ft_printf_three.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/ft_printf_two.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/ft_width_for_int.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_atoi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_atoi_error.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_atoi_hex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_bzero.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_copyuntil.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_isalnum.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_isalpha.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_isascii.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_isdigit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_isprint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_itoa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_lstadd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_lstdel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_lstdelone.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_lstiter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_lstmap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_lstnew.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_memalloc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_memccpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_memchr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_memcmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_memcpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_memdel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_memmove.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_memset.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_power.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_putchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_putchar_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_putendl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_putendl_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_putnbr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_putnbr_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_putstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_putstr_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strcat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strchr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strclr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strcmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strcpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strdel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strdup.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strequ.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_striter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_striteri.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strjoin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strjoinch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strlcat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strlen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strmap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strmapi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strncat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strncmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strncpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strnequ.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strnew.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strnstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strrchr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strsplit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strsub.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_strtrim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_tolower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/ft_toupper.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/get_next_line.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/libft/libft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/new.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/print_null_i.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/print_pointer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/libftprintf/print_string.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/1.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/10.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/100K.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/10K.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/10_lots_of_comments.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/2.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/20.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/5.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/9_path_depth_10_ants.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/9_path_depth_1_ants.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/9_path_depth_2_ants.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/9_path_depth_4_ants.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/9_path_depth_8_ants.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/9_path_depth_9_ants.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/map1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/map2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/map3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/map4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/map5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/maps/map6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/print.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/lem-in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_faux/bduron_test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_faux/flstart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_faux/oneline" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_faux/simpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_faux/tata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_faux/test2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_faux/toto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_faux/toutok" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug1.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug10.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug11.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug12.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug13.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug14.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug15.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug16.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug2.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug3.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug4.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug5.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug6.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug7.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug8.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/bug9.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/easy1.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/easy2.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error1.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error10.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error11.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error12.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error13.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error14.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error2.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error3.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error4.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error5.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error6.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error7.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error8.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/error9.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/hard.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample1.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample100.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample101.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample11.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample12.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample13.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample14.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample15.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample16.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample17.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample18.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample19.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample2.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample20.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample3.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample6.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/sample8.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_net/wtf.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_vrai/custom_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_vrai/drome" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_vrai/forum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_vrai/multiple_start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/test_vrai/test_opti" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/custom_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/drome" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/ex_sujet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/ex_sujet2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/exemple" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/forum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/jesuisunbourin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/multiple_start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/tata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/test_opti" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemin2/test/vrai_test_perso/toutok" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Assets/Scripts/Player/Controller/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Assets/Scripts/Player/Controller/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Assets/Scripts/Player/Interplay/PlayerCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Assets/Scripts/Player/Interplay/PlayerCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/EditorInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/StateCache/Hierarchy/1dc2d4-6a1286fab88f4405bb.json" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/StateCache/Hierarchy/1dc2d4-6a1286fab88f4405bb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/StateCache/Hierarchy/1dc2d4-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/StateCache/Hierarchy/1dc2d4-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/StateCache/SceneView/557baa-6a1286fab88f4405bb.json" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/StateCache/SceneView/557baa-6a1286fab88f4405bb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/StateCache/SceneView/557baa-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/StateCache/SceneView/557baa-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/metadata/6a/6a1286fab88f4405bb29b37ec99a89f9" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/metadata/6a/6a1286fab88f4405bb29b37ec99a89f9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/metadata/6a/6a1286fab88f4405bb29b37ec99a89f9.info" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/metadata/6a/6a1286fab88f4405bb29b37ec99a89f9.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/metadata/e7/e7d5da8f6aa7d4d1fa7405fa29454a96" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/metadata/e7/e7d5da8f6aa7d4d1fa7405fa29454a96" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/metadata/fe/fe5a744aca63e4ba48e8ab991da0c9e5" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/metadata/fe/fe5a744aca63e4ba48e8ab991da0c9e5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../maybe/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Temp/UnityLockfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Temp/UnityTempFile-c79c9a984be2644569adc9b3d24c8f7c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Temp/UnityTempFile-cebdfe5980ae04ba089cf41389332219" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Temp/UnityTempFile-e0667d7edde3249e1aba21de99e78ce9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maybe/Temp/__Backupscenes/0.backup" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions_key_code.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/untitled.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="fractol" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fractol" TARGET_NAME="fractol" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="fractol" RUN_TARGET_NAME="fractol">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20a6efaf-b91c-4298-9e94-bf1d7b68b4f0" name="Default Changelist" comment="" />
+      <created>1560419743796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560419743796</updated>
+      <workItem from="1560419745375" duration="69000" />
+      <workItem from="1560419976506" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="89000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178713" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.c" />
+    <entry file="file://$PROJECT_DIR$/functions_key_code.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

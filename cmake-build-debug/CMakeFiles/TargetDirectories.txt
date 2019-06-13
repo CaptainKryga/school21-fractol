@@ -1,3 +1,3 @@
-/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles/fractol.dir
+/Users/jbashiri/Desktop/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jbashiri/Desktop/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jbashiri/Desktop/untitled/cmake-build-debug/CMakeFiles/fractol.dir
