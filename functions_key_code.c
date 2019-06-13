@@ -27,33 +27,6 @@ void			controls(t_window *win)
 	mlx_hook(win->win, 17, 0, expose, win);
 }
 
-//void			key_menu(int key, t_window *win)
-//{
-//	if (key == 48)
-//	{
-//		if (win->cyp->war == 0)
-//		{
-//			win->cyp->war = 1;
-//			mlx_string_put(win->mlx, win->win,\
-//					20, 50, 0x7291F3, "1 - map reset");
-//			mlx_string_put(win->mlx, win->win,\
-//					20, 70, 0x7291F3, "2,3,4 - isometry");
-//			mlx_string_put(win->mlx, win->win,\
-//					20, 90, 0x7291F3, "-,+ - zoom");
-//			mlx_string_put(win->mlx, win->win,\
-//					20, 110, 0x7291F3, "up,down,left,right - move map");
-//			mlx_string_put(win->mlx, win->win,\
-//					20, 130, 0x7291F3, "<,> - depth z");
-//			mlx_string_put(win->mlx, win->win,\
-//					20, 150, 0x7291F3, "w,a,s,d - rotate");
-//			mlx_string_put(win->mlx, win->win,\
-//					20, 170, 0x7291F3, "z,x,c - change colour");
-//			mlx_string_put(win->mlx, win->win,\
-//					20, 190, 0x7291F3, "esc - exit program");
-//		}
-//	}
-//}
-
 int				key_press(int key, void *fdf)
 {
 	t_window	*win;
@@ -61,8 +34,18 @@ int				key_press(int key, void *fdf)
 	win = fdf;
 	if (key == MAIN_PAD_ESC)
 		exit(0);
-//	key_menu(key, win);
+	if (key == NUM_PAD_PLUS)
+	{
+		win->var = restart_var(win);
+		printf("w:%f\n", win->var.zoom_min_x);
+//		win->img_x += 100;
+		win->var.zoom_min_x += 0.1;
+		win->var.zoom_max_x -= 0.1;
+		win->var.zoom_min_y += 0.1;
+		win->var.zoom_max_y -= 0.1;
+		mlx_clear_window(win->mlx, win->win);
+		printf("w:%f\n", win->var.zoom_min_x);
+		mandelbrot(win);
+	}
 	return (0);
 }
-
-

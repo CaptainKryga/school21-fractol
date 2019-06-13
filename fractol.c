@@ -12,75 +12,54 @@
 
 #include "fractol.h"
 
-void            mot(t_var *var, t_window *win)
+void		mandelbrot(t_window *win)
 {
-	double Cx, Cy;
-	const double CxMin = -2.5;//-2.5
-	const double CxMax = 1.5;//1.5
-	const double CyMin = -2.0;//-2.0
-	const double CyMax = 2.0;//2.0
-	double PixelWidth = (CxMax - CxMin) / SIZEX;
-	double PixelHeight = (CyMax - CyMin) / SIZEY;
-	int Iteration;
-	const int IterationMax = 200;
-	double Zx, Zy;
-	double Zx2, Zy2;
-	const double EscapeRadius = 2;
-	double ER2 = EscapeRadius * EscapeRadius;
-
-	var->y = 0;
-	while (var->y < SIZEY)
+	while (win->var.y < SIZEY)
 	{
-		Cy = CyMin + var->y * PixelHeight;
-		if (fabs(Cy) < PixelHeight / 2)
-			Cy = 0.0;
-		var->x = 0;
-		while(var->x < SIZEX)
+		win->var.complex_y = win->var.zoom_min_y + win->var.y * win->var
+				.pixel_height;
+		if (fabs(win->var.complex_y) < win->var.pixel_height / 2)
+			win->var.complex_y = 0.0;
+		win->var.x = 0;
+		while(win->var.x < SIZEX)
 		{
-			Cx = CxMin + var->x * PixelWidth;
-			Zx = 0.0;
-			Zy = 0.0;
-			Zx2 = Zx * Zx;
-			Zy2 = Zy * Zy;
-			Iteration = 0;
-			while (Iteration < IterationMax && ((Zx2 + Zy2) < ER2))
+			win->var.complex_x = win->var.zoom_min_x + win->var.x * win->var
+					.pixel_width;
+			win->var.Zx = 0.0;
+			win->var.Zy = 0.0;
+			win->var.Zx2 = win->var.Zx * win->var.Zx;
+			win->var.Zy2 = win->var.Zy * win->var.Zy;
+			win->var.iteration = 0;
+			while (win->var.iteration < win->var.iterations_max &&
+				((win->var.Zx2 +	win->var.Zy2) < win->var.ER2))
 			{
-				Zy = 2 * Zx * Zy + Cy;
-				Zx = Zx2 - Zy2 + Cx;
-				Zx2 = Zx * Zx;
-				Zy2 = Zy * Zy;
-				Iteration++;
+				win->var.Zy = 2 * win->var.Zx * win->var.Zy + win->var
+						.complex_y;
+				win->var.Zx = win->var.Zx2 - win->var.Zy2 + win->var.complex_x;
+				win->var.Zx2 = win->var.Zx * win->var.Zx;
+				win->var.Zy2 = win->var.Zy * win->var.Zy;
+				win->var.iteration++;
 			}
-			if (Iteration == IterationMax)
-			{
-				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x00FF00);
-			}
-//			else if (Iteration == 2)
-//				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0xAAAAAA);
-//			else if (Iteration > 1 && Iteration < 10)
-//				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x777777);
-//			else if (Iteration >= 10 && Iteration < 50)
-//				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x333333);
-//			else if (Iteration >= 50 && Iteration < IterationMax)
-//				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0xdddddd);
+			if (win->var.iteration == win->var.iterations_max)
+				win->data[win->var.i] = 0x00FF00;
 			else
-				mlx_pixel_put(win->mlx, win->win, var->x, var->y, 0x000000);
-			var->i++;
-			var->x++;
+				win->data[win->var.i] = 0x000000;
+			win->var.i++;
+			win->var.x++;
 		}
-		var->y++;
+		win->var.y++;
 	}
+	mlx_put_image_to_window(win->mlx, win->win, win->img, win->img_x,
+		win->img_y);
 }
 
 void			fractol(t_window *win)
 {
-	t_var *var;
 
-	var = (t_var*)malloc(sizeof(t_var));
-	win->win = mlx_new_window(win->mlx, SIZEX, SIZEY,
-		"fractol");
-	mot(var, win);
+	win->var = inicialization_var();
+	mandelbrot(win);
 	controls(win);
+	printf("w:%f\n", win->var.zoom_min_x);
 	mlx_loop(win->mlx);
 }
 
@@ -96,5 +75,14 @@ int				main(int argc, char **argv)
 	ft_usage();
 	if (!argv[1])
 		return (0);
+	return (0);
+}
+
+int 			check_name(char *name)
+{
+	if (!ft_strcmp(name, "mandelbrot"))
+		return (1);
+	if (!ft_strcmp(name, "harry"))
+		return (2);
 	return (0);
 }

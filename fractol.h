@@ -20,17 +20,9 @@
 # include <fcntl.h>
 # include <mlx.h>
 # include <math.h>
-# define SIZEX 1000
-# define SIZEY 1000
-
-typedef struct              s_pos
-{
-	int						x;
-	int						y;
-	int						z;
-	int						flag;
-	int						colour;
-}							t_pos;
+# define SIZEX 800
+# define SIZEY 800
+#include <stdio.h>
 
 typedef struct              s_color
 {
@@ -39,42 +31,68 @@ typedef struct              s_color
 	int                     blue;
 }                           t_color;
 
-typedef struct              s_var
+typedef struct		s_var
 {
-	int x;
-	int y;
-	int z;
-	double i;
-}                           t_var;
+	int				x;
+	int				y;
+	double			complex_x;
+	double			complex_y;
+	double			Zx;
+	double			Zy;
+	double			Zx2;
+	double			Zy2;
+	int				i;
+	double			zoom_min_x;
+	double			zoom_max_x;
+	double			zoom_min_y;
+	double			zoom_max_y;
+	double			pixel_width;
+	double			pixel_height;
+	int				iteration;
+	int				iterations_max;
+	double 			EscapeRadius;
+	double 			ER2;
+}					t_var;
 
-typedef struct				s_window
+typedef struct		s_window
 {
-	void					*mlx;
-	void					*win;
-	int                     *img;
-}							t_window;
+	void			*mlx;
+	void			*win;
+	void			*img;
+	int 			img_x;
+	int 			img_y;
+	int				*data;
+	t_var			var;
+}					t_window;
 
 /*
  * malloc
  */
-t_window					*inicialization_win();
+t_window			*inicialization_win();
+t_var				inicialization_var();
+t_var		restart_var(t_window *win);
 
 /*
  * support
  */
-void    ft_error(int error);
-void    ft_usage();
+void				ft_error(int error);
+void				ft_usage();
 
 /*
  * fractol
  */
-int							main(int argc, char **argv);
+int					main(int argc, char **argv);
 
 /*
  * options
  */
-void			controls(t_window *win);
-int				key_press(int key, void *fdf);
+void				controls(t_window *win);
+int					key_press(int key, void *fdf);
+
+/*
+ * fractals
+ */
+void		mandelbrot(t_window *win);
 
 
 #endif
