@@ -14,9 +14,10 @@
 
 void			fractol_loop(t_window *win)
 {
-	fractol_initialization(win);
 	fractol_while(win);
-	controls(win);
+	mlx_hook(win->win, 2, 0, key_press, win);
+	mlx_hook(win->win, 17, 0, close, win);
+	mlx_hook(win->win, 17, 0, expose, win);
 	mlx_loop(win->mlx);
 }
 
@@ -62,7 +63,9 @@ void			fractol_while(t_window *win)
 	}
 	mlx_put_image_to_window(win->mlx, win->win, win->img, 0, 0);
 }
-
+/*
+ * проверка на левое имя фрактала
+ */
 int				main(int argc, char **argv)
 {
 	t_window	*win;
@@ -70,6 +73,7 @@ int				main(int argc, char **argv)
 	if (argc != 2)
 		ft_usage();
 	win = inicialization_win(argv[1]);
+	fractol_initialization(win);
 	fractol_loop(win);
 	exit(0);
 }

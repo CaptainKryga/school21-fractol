@@ -25,12 +25,6 @@ int				expose(void *param)
  * close == закрытие окна на крестик красный
  * expose == ?
  */
-void			controls(t_window *win)
-{
-	mlx_hook(win->win, 2, 0, key_press, win);
-	mlx_hook(win->win, 17, 0, close, win);
-	mlx_hook(win->win, 17, 0, expose, win);
-}
 
 int				key_press(int key, void *fdf)
 {
@@ -39,24 +33,27 @@ int				key_press(int key, void *fdf)
 	win = fdf;
 	if (key == MAIN_PAD_ESC)
 		exit(0);
-	else if (key == ARROW_UP)
-    {
+	if (key == ARROW_UP)
+	{
 		win->var.x1 -= 30 / win->var.zoom;
-    }
-    else if (key == ARROW_DOWN)
-    {
-		win->var.x1 += 30 / win->var.zoom;
-    }
-    else if (key == ARROW_LEFT)
-    {
+		printf("up\n");
+	}
+    if (key == ARROW_DOWN)
+	{
+		win->var.x1 -= 30 / win->var.zoom;
+		printf("down\n");
+	}
+    if (key == ARROW_LEFT)
+	{
 		win->var.y1 -= 30 / win->var.zoom;
-    }
-    else if (key == ARROW_RIGHT)
-    {
-		win->var.y1 += 30 / win->var.zoom;
-    }
-    else
-        return (0);
+		printf("left\n");
+	}
+    if (key == ARROW_RIGHT)
+	{
+		win->var.y1 -= 30 / win->var.zoom;
+		printf("right\n");
+	}
+    mlx_clear_window(win->mlx, win->win);
 	fractol_while(win);
 	return (0);
 }

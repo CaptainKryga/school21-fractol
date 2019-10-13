@@ -65,7 +65,9 @@ typedef struct		s_window
  * malloc
  */
 t_var			init_julia();
-t_var			init_malderbrot(int x);
+t_var			init_malderbrot();
+t_var			init_burningship();
+t_var			init_chameleon();
 t_window		*inicialization_win(char *name);
 
 /*
@@ -78,18 +80,16 @@ int 			check_name(char *name);
 /*
  * options
  */
-void			controls(t_window *win);
 int				key_press(int key, void *fdf);
+int				expose(void *param);
 
 /*
  * fractals
  */
 void			mandelbrot(t_window *win);
 void			julia(t_window *win);
-t_var			init_chameleon();
 void			chameleon(t_window *win);
-t_var		init_burningship();
-void		burningship(t_window *win);
+void			burningship(t_window *win);
 
 /*
  * main.c

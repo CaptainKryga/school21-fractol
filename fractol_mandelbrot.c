@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-t_var		init_malderbrot(int x)//переписать
+t_var		init_malderbrot()//переписать
 {
 	t_var var;
 
@@ -22,8 +22,7 @@ t_var		init_malderbrot(int x)//переписать
 	var.dx2 = 0;
 	var.dy = 0;
 	var.dy2 = 0;
-	if (x == 0)
-		var.zoom = SIZE / 4;
+	var.zoom = SIZE / 4;
 	var.x1 = -2.5;
 	var.y1 = -1.8;
 	var.iteration = 0;
@@ -37,6 +36,8 @@ void		mandelbrot(t_window *win)
 	double tmp;
 
 	win->var.dy = win->var.x / win->var.zoom + win->var.x1;
+	if (win->i == 0)
+		printf("win->dy:%f\n", win->var.dy);
 	win->var.dy2 = win->var.y / win->var.zoom + win->var.y1;
 	win->var.dx = 0;
 	win->var.dx2 = 0;
