@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-t_var		init_malderbrot()//переписать
+t_var		init_malderbrot(int x)//переписать
 {
 	t_var var;
 
@@ -22,7 +22,8 @@ t_var		init_malderbrot()//переписать
 	var.dx2 = 0;
 	var.dy = 0;
 	var.dy2 = 0;
-	var.zoom = SIZE / 4;
+	if (x == 0)
+		var.zoom = SIZE / 4;
 	var.x1 = -2.5;
 	var.y1 = -1.8;
 	var.iteration = 0;

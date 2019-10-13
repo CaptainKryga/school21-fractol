@@ -19,7 +19,8 @@ t_window    *inicialization_win(char *name)
 	int bpp;
 	int endian;
 
-	win = (t_window*)malloc(sizeof(t_window));
+	if (!(win = (t_window*)malloc(sizeof(t_window))))
+		exit(0);
 	size_line = SIZE * SIZE;
 	bpp = 8;
 	endian = 0;
@@ -29,20 +30,10 @@ t_window    *inicialization_win(char *name)
 	win->data = (int *)mlx_get_data_addr(win->img, &bpp, &size_line, &endian);
 	win->i = 0;
 	win->typeFractol = check_name(name);
+	win->flag_zoom = 0;
+	win->flag_mouse = 0;
 	printf("%d\n", win->typeFractol);
 	return (win);
 }
 
-int 			check_name(char *name)
-{
-	if (!ft_strcmp(name, "mandelbrot") || !ft_strcmp(name, "Mandelbrot") || !ft_strcmp(name, "1"))
-		return (1);
-	else if (!ft_strcmp(name, "julia") || !ft_strcmp(name, "Julia") || !ft_strcmp(name, "2"))
-		return (2);
-	else if (!ft_strcmp(name, "chameleon") || !ft_strcmp(name, "Chameleon") || !ft_strcmp(name, "3"))
-		return (3);
-	else if (!ft_strcmp(name, "burningship") || !ft_strcmp(name, "Burningship") ||
-		!ft_strcmp(name, "Ship") || !ft_strcmp(name, "ship") || !ft_strcmp(name, "4"))
-		return (4);
-	return (0);
-}
+

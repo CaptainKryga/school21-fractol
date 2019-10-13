@@ -37,45 +37,26 @@ int				key_press(int key, void *fdf)
 	t_window	*win;
 
 	win = fdf;
-    /*
-    * кнопки реализованы
-    */
 	if (key == MAIN_PAD_ESC)
 		exit(0);
-	else if (key == NUM_PAD_PLUS)
-	{
-
-	}
-	else if (key == NUM_PAD_MINUS)
-    {
-
-    }
 	else if (key == ARROW_UP)
     {
-
+		win->var.x1 -= 30 / win->var.zoom;
     }
     else if (key == ARROW_DOWN)
     {
-
+		win->var.x1 += 30 / win->var.zoom;
     }
     else if (key == ARROW_LEFT)
     {
-
+		win->var.y1 -= 30 / win->var.zoom;
     }
     else if (key == ARROW_RIGHT)
     {
-
+		win->var.y1 += 30 / win->var.zoom;
     }
     else
         return (0);
-    mlx_clear_window(win->mlx, win->win);
-    if (win->typeFractol == 1)
-	{
-		mandelbrot(win);
-	}
-    else if (win->typeFractol == 2)
-	{
-    	julia(win);
-	}
+	fractol_while(win);
 	return (0);
 }

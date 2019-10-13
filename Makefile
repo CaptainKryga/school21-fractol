@@ -6,7 +6,7 @@
 #    By: kkuvalis <kkuvalis@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/20 17:34:14 by jbashiri          #+#    #+#              #
-#    Updated: 2019/10/13 21:07:01 by jbashiri         ###   ########.fr        #
+#    Updated: 2019/10/13 21:50:50 by jbashiri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -121,7 +121,6 @@ SRC =			main.c\
                 functions_malloc.c\
                 functions_support.c\
                 functions_key_code.c\
-                functions_change_color.c\
 				fractol_mandelbrot.c\
 				fractol_chameleon.c\
 				fractol_burningship.c\
