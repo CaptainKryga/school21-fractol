@@ -20,6 +20,6 @@ void    ft_error(int error)
 
 void    ft_usage()
 {
-	ft_printf("./fractol name\n");
+	ft_printf("./fractol [mandelbrot or julia or burningship or chameleon]\n");
 	exit(0);
 }

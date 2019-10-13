@@ -67,7 +67,7 @@ int				main(int argc, char **argv)
 	t_window	*win;
 
 	if (argc != 2)
-		exit(0);
+		ft_usage();
 	win = inicialization_win(argv[1]);
 	fractol_loop(win);
 	exit(0);
