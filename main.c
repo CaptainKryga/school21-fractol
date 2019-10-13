@@ -23,25 +23,13 @@ void			fractol_loop(t_window *win)
 void			fractol_initialization(t_window *win)
 {
 	if (win->typeFractol == 1)
-	{
 		win->var = init_malderbrot();
-		mandelbrot(win);
-	}
 	else if (win->typeFractol == 2)
-	{
 		win->var = init_julia();
-		julia(win);
-	}
 	else if (win->typeFractol == 3)
-	{
 		win->var = init_chameleon();
-		chameleon(win);
-	}
 	else if (win->typeFractol == 4)
-	{
 		win->var = init_burningship();
-		burningship(win);
-	}
 }
 
 void			fractol_paint(t_window *win)

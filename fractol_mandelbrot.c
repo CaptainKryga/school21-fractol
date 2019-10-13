@@ -9,6 +9,7 @@
 /*   Updated: 2019/10/13 12:08:02 by jbashiri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "fractol.h"
 
 t_var		init_malderbrot()//переписать
@@ -17,19 +18,15 @@ t_var		init_malderbrot()//переписать
 
 	var.x = 0;
 	var.y = 0;
-
 	var.dx = 0;
 	var.dx2 = 0;
 	var.dy = 0;
 	var.dy2 = 0;
-
 	var.zoom = SIZE / 4;
 	var.x1 = -2.5;
 	var.y1 = -1.8;
-
 	var.iteration = 0;
 	var.iterations_max = 255;
-
 	var.colour = 265;
 	return (var);
 }
