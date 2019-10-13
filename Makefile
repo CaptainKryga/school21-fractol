@@ -6,7 +6,7 @@
 #    By: kkuvalis <kkuvalis@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/20 17:34:14 by jbashiri          #+#    #+#              #
-#    Updated: 2019/05/08 12:05:05 by jbashiri         ###   ########.fr        #
+#    Updated: 2019/10/13 19:08:23 by jbashiri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -117,11 +117,13 @@ SRC_PRINTF =	analise.c\
 				print_null_i.c\
 				print_pointer.c\
 				print_string.c
-SRC =			fractol.c\
+SRC =			main.c\
                 functions_malloc.c\
                 functions_support.c\
                 functions_key_code.c\
-                functions_change_color.c
+                functions_change_color.c\
+				fractol_mandelbrot.c\
+				fractol_julia.c
 INCLUDE = 		-Ilibftprintf\
 			   	-Ilibftprintf/libft
 HEAD =			fractol.h\
@@ -149,7 +151,7 @@ $(LIBFT_PRINTF): $(OBJ_PRINTF)
 	@echo "libftprintf.a compiled"
 
 .c.o:
-	$(CC) $(FLAGS) $(INCLUDE) -g -c -o $@ $<
+	@$(CC) $(FLAGS) $(INCLUDE) -g -c -o $@ $<
 
 clean:
 	@/bin/rm -f $(OBJ_PRINTF)

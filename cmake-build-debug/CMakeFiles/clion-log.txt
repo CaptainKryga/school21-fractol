@@ -1,4 +1,4 @@
-/goinfre/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jbashiri/Desktop/untitled
+/goinfre/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jbashiri/Desktop/fractol
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/jbashiri/Desktop/untitled/cmake-build-debug
+-- Build files have been written to: /Users/jbashiri/Desktop/fractol/cmake-build-debug

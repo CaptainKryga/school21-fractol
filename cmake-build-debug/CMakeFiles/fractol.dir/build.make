@@ -43,10 +43,10 @@ RM = /goinfre/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jbashiri/Desktop/untitled
+CMAKE_SOURCE_DIR = /Users/jbashiri/Desktop/fractol
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jbashiri/Desktop/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jbashiri/Desktop/fractol/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fractol.dir/depend.make
@@ -57,90 +57,1080 @@ include CMakeFiles/fractol.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/fractol.dir/flags.make
 
-CMakeFiles/fractol.dir/fractol.c.o: CMakeFiles/fractol.dir/flags.make
-CMakeFiles/fractol.dir/fractol.c.o: ../fractol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fractol.dir/fractol.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/fractol.c.o   -c /Users/jbashiri/Desktop/untitled/fractol.c
+CMakeFiles/fractol.dir/fractol_julia.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/fractol_julia.c.o: ../fractol_julia.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fractol.dir/fractol_julia.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/fractol_julia.c.o   -c /Users/jbashiri/Desktop/fractol/fractol_julia.c
 
-CMakeFiles/fractol.dir/fractol.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/fractol.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/untitled/fractol.c > CMakeFiles/fractol.dir/fractol.c.i
+CMakeFiles/fractol.dir/fractol_julia.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/fractol_julia.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/fractol_julia.c > CMakeFiles/fractol.dir/fractol_julia.c.i
 
-CMakeFiles/fractol.dir/fractol.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/fractol.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/untitled/fractol.c -o CMakeFiles/fractol.dir/fractol.c.s
+CMakeFiles/fractol.dir/fractol_julia.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/fractol_julia.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/fractol_julia.c -o CMakeFiles/fractol.dir/fractol_julia.c.s
+
+CMakeFiles/fractol.dir/fractol_mandelbrot.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/fractol_mandelbrot.c.o: ../fractol_mandelbrot.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fractol.dir/fractol_mandelbrot.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/fractol_mandelbrot.c.o   -c /Users/jbashiri/Desktop/fractol/fractol_mandelbrot.c
+
+CMakeFiles/fractol.dir/fractol_mandelbrot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/fractol_mandelbrot.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/fractol_mandelbrot.c > CMakeFiles/fractol.dir/fractol_mandelbrot.c.i
+
+CMakeFiles/fractol.dir/fractol_mandelbrot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/fractol_mandelbrot.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/fractol_mandelbrot.c -o CMakeFiles/fractol.dir/fractol_mandelbrot.c.s
 
 CMakeFiles/fractol.dir/functions_change_color.c.o: CMakeFiles/fractol.dir/flags.make
 CMakeFiles/fractol.dir/functions_change_color.c.o: ../functions_change_color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fractol.dir/functions_change_color.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/functions_change_color.c.o   -c /Users/jbashiri/Desktop/untitled/functions_change_color.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/fractol.dir/functions_change_color.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/functions_change_color.c.o   -c /Users/jbashiri/Desktop/fractol/functions_change_color.c
 
 CMakeFiles/fractol.dir/functions_change_color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/functions_change_color.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/untitled/functions_change_color.c > CMakeFiles/fractol.dir/functions_change_color.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/functions_change_color.c > CMakeFiles/fractol.dir/functions_change_color.c.i
 
 CMakeFiles/fractol.dir/functions_change_color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/functions_change_color.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/untitled/functions_change_color.c -o CMakeFiles/fractol.dir/functions_change_color.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/functions_change_color.c -o CMakeFiles/fractol.dir/functions_change_color.c.s
 
 CMakeFiles/fractol.dir/functions_key_code.c.o: CMakeFiles/fractol.dir/flags.make
 CMakeFiles/fractol.dir/functions_key_code.c.o: ../functions_key_code.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/fractol.dir/functions_key_code.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/functions_key_code.c.o   -c /Users/jbashiri/Desktop/untitled/functions_key_code.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fractol.dir/functions_key_code.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/functions_key_code.c.o   -c /Users/jbashiri/Desktop/fractol/functions_key_code.c
 
 CMakeFiles/fractol.dir/functions_key_code.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/functions_key_code.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/untitled/functions_key_code.c > CMakeFiles/fractol.dir/functions_key_code.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/functions_key_code.c > CMakeFiles/fractol.dir/functions_key_code.c.i
 
 CMakeFiles/fractol.dir/functions_key_code.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/functions_key_code.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/untitled/functions_key_code.c -o CMakeFiles/fractol.dir/functions_key_code.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/functions_key_code.c -o CMakeFiles/fractol.dir/functions_key_code.c.s
 
 CMakeFiles/fractol.dir/functions_malloc.c.o: CMakeFiles/fractol.dir/flags.make
 CMakeFiles/fractol.dir/functions_malloc.c.o: ../functions_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fractol.dir/functions_malloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/functions_malloc.c.o   -c /Users/jbashiri/Desktop/untitled/functions_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/fractol.dir/functions_malloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/functions_malloc.c.o   -c /Users/jbashiri/Desktop/fractol/functions_malloc.c
 
 CMakeFiles/fractol.dir/functions_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/functions_malloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/untitled/functions_malloc.c > CMakeFiles/fractol.dir/functions_malloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/functions_malloc.c > CMakeFiles/fractol.dir/functions_malloc.c.i
 
 CMakeFiles/fractol.dir/functions_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/functions_malloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/untitled/functions_malloc.c -o CMakeFiles/fractol.dir/functions_malloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/functions_malloc.c -o CMakeFiles/fractol.dir/functions_malloc.c.s
 
 CMakeFiles/fractol.dir/functions_support.c.o: CMakeFiles/fractol.dir/flags.make
 CMakeFiles/fractol.dir/functions_support.c.o: ../functions_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/fractol.dir/functions_support.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/functions_support.c.o   -c /Users/jbashiri/Desktop/untitled/functions_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/fractol.dir/functions_support.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/functions_support.c.o   -c /Users/jbashiri/Desktop/fractol/functions_support.c
 
 CMakeFiles/fractol.dir/functions_support.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/functions_support.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/untitled/functions_support.c > CMakeFiles/fractol.dir/functions_support.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/functions_support.c > CMakeFiles/fractol.dir/functions_support.c.i
 
 CMakeFiles/fractol.dir/functions_support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/functions_support.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/untitled/functions_support.c -o CMakeFiles/fractol.dir/functions_support.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/functions_support.c -o CMakeFiles/fractol.dir/functions_support.c.s
+
+CMakeFiles/fractol.dir/main.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fractol.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/main.c.o   -c /Users/jbashiri/Desktop/fractol/main.c
+
+CMakeFiles/fractol.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/main.c > CMakeFiles/fractol.dir/main.c.i
+
+CMakeFiles/fractol.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/main.c -o CMakeFiles/fractol.dir/main.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.o: ../libftprintf/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_atoi.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_atoi.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_atoi.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.o: ../libftprintf/libft/ft_atoi_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_atoi_error.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_atoi_error.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_atoi_error.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.o: ../libftprintf/libft/ft_atoi_hex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_atoi_hex.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_atoi_hex.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_atoi_hex.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.o: ../libftprintf/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_bzero.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_bzero.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_bzero.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.o: ../libftprintf/libft/ft_copyuntil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_copyuntil.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_copyuntil.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_copyuntil.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.o: ../libftprintf/libft/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isalnum.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isalnum.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isalnum.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.o: ../libftprintf/libft/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isalpha.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isalpha.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isalpha.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.o: ../libftprintf/libft/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isascii.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isascii.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isascii.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.o: ../libftprintf/libft/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isdigit.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isdigit.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isdigit.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.o: ../libftprintf/libft/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isprint.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isprint.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_isprint.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.o: ../libftprintf/libft/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_itoa.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_itoa.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_itoa.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.o: ../libftprintf/libft/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstadd.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstadd.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstadd.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.o: ../libftprintf/libft/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstdel.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstdel.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstdel.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.o: ../libftprintf/libft/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstdelone.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstdelone.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstdelone.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.o: ../libftprintf/libft/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstiter.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstiter.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstiter.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.o: ../libftprintf/libft/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstmap.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstmap.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstmap.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.o: ../libftprintf/libft/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstnew.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstnew.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_lstnew.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.o: ../libftprintf/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memalloc.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memalloc.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memalloc.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.o: ../libftprintf/libft/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memccpy.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memccpy.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memccpy.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.o: ../libftprintf/libft/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memchr.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memchr.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memchr.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.o: ../libftprintf/libft/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memcmp.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memcmp.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memcmp.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.o: ../libftprintf/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memcpy.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memcpy.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memcpy.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.o: ../libftprintf/libft/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memdel.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memdel.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memdel.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.o: ../libftprintf/libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memmove.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memmove.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memmove.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.o: ../libftprintf/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memset.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memset.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_memset.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.o: ../libftprintf/libft/ft_power.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_power.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_power.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_power.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.o: ../libftprintf/libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putchar.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putchar.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putchar.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.o: ../libftprintf/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putchar_fd.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putchar_fd.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putchar_fd.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.o: ../libftprintf/libft/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putendl.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putendl.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putendl.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.o: ../libftprintf/libft/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putendl_fd.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putendl_fd.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putendl_fd.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.o: ../libftprintf/libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putnbr.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putnbr.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putnbr.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.o: ../libftprintf/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putnbr_fd.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putnbr_fd.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putnbr_fd.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.o: ../libftprintf/libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putstr.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putstr.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putstr.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.o: ../libftprintf/libft/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putstr_fd.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putstr_fd.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_putstr_fd.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.o: ../libftprintf/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strcat.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strcat.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strcat.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.o: ../libftprintf/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strchr.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strchr.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strchr.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.o: ../libftprintf/libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strclr.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strclr.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strclr.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.o: ../libftprintf/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strcmp.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strcmp.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strcmp.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.o: ../libftprintf/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strcpy.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strcpy.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strcpy.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.o: ../libftprintf/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strdel.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strdel.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strdel.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.o: ../libftprintf/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strdup.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strdup.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strdup.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.o: ../libftprintf/libft/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strequ.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strequ.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strequ.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.o: ../libftprintf/libft/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_striter.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_striter.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_striter.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.o: ../libftprintf/libft/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_striteri.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_striteri.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_striteri.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.o: ../libftprintf/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strjoin.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strjoin.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strjoin.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.o: ../libftprintf/libft/ft_strjoinch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strjoinch.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strjoinch.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strjoinch.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.o: ../libftprintf/libft/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strlcat.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strlcat.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strlcat.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.o: ../libftprintf/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strlen.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strlen.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strlen.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.o: ../libftprintf/libft/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strmap.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strmap.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strmap.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.o: ../libftprintf/libft/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strmapi.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strmapi.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strmapi.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.o: ../libftprintf/libft/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strncat.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strncat.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strncat.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.o: ../libftprintf/libft/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strncmp.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strncmp.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strncmp.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.o: ../libftprintf/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strncpy.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strncpy.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strncpy.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.o: ../libftprintf/libft/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strnequ.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strnequ.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strnequ.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.o: ../libftprintf/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strnew.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strnew.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strnew.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.o: ../libftprintf/libft/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strnstr.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strnstr.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strnstr.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.o: ../libftprintf/libft/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strrchr.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strrchr.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strrchr.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.o: ../libftprintf/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strsplit.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strsplit.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strsplit.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.o: ../libftprintf/libft/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strstr.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strstr.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strstr.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.o: ../libftprintf/libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strsub.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strsub.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strsub.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.o: ../libftprintf/libft/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strtrim.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strtrim.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_strtrim.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.o: ../libftprintf/libft/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_tolower.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_tolower.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_tolower.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.o: ../libftprintf/libft/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_toupper.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_toupper.c > CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/ft_toupper.c -o CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.s
+
+CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.o: CMakeFiles/fractol.dir/flags.make
+CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.o: ../libftprintf/libft/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.o   -c /Users/jbashiri/Desktop/fractol/libftprintf/libft/get_next_line.c
+
+CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jbashiri/Desktop/fractol/libftprintf/libft/get_next_line.c > CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.i
+
+CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jbashiri/Desktop/fractol/libftprintf/libft/get_next_line.c -o CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.s
 
 # Object files for target fractol
 fractol_OBJECTS = \
-"CMakeFiles/fractol.dir/fractol.c.o" \
+"CMakeFiles/fractol.dir/fractol_julia.c.o" \
+"CMakeFiles/fractol.dir/fractol_mandelbrot.c.o" \
 "CMakeFiles/fractol.dir/functions_change_color.c.o" \
 "CMakeFiles/fractol.dir/functions_key_code.c.o" \
 "CMakeFiles/fractol.dir/functions_malloc.c.o" \
-"CMakeFiles/fractol.dir/functions_support.c.o"
+"CMakeFiles/fractol.dir/functions_support.c.o" \
+"CMakeFiles/fractol.dir/main.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.o" \
+"CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.o"
 
 # External object files for target fractol
 fractol_EXTERNAL_OBJECTS =
 
-fractol: CMakeFiles/fractol.dir/fractol.c.o
+fractol: CMakeFiles/fractol.dir/fractol_julia.c.o
+fractol: CMakeFiles/fractol.dir/fractol_mandelbrot.c.o
 fractol: CMakeFiles/fractol.dir/functions_change_color.c.o
 fractol: CMakeFiles/fractol.dir/functions_key_code.c.o
 fractol: CMakeFiles/fractol.dir/functions_malloc.c.o
 fractol: CMakeFiles/fractol.dir/functions_support.c.o
+fractol: CMakeFiles/fractol.dir/main.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_error.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_atoi_hex.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_bzero.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_copyuntil.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_isalnum.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_isalpha.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_isascii.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_isdigit.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_isprint.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_itoa.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_lstadd.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdel.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_lstdelone.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_lstiter.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_lstmap.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_lstnew.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_memalloc.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_memccpy.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_memchr.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_memcmp.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_memcpy.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_memdel.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_memmove.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_memset.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_power.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_putchar_fd.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_putendl_fd.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_putnbr_fd.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_putstr_fd.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strcat.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strchr.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strclr.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strcmp.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strcpy.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strdel.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strdup.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strequ.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_striter.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_striteri.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoin.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strjoinch.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strlcat.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strlen.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strmap.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strmapi.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strncat.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strncmp.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strncpy.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strnequ.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strnew.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strnstr.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strrchr.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strsplit.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strstr.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strsub.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_strtrim.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_tolower.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/ft_toupper.c.o
+fractol: CMakeFiles/fractol.dir/libftprintf/libft/get_next_line.c.o
 fractol: CMakeFiles/fractol.dir/build.make
 fractol: CMakeFiles/fractol.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jbashiri/Desktop/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable fractol"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking C executable fractol"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fractol.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +1143,6 @@ CMakeFiles/fractol.dir/clean:
 .PHONY : CMakeFiles/fractol.dir/clean
 
 CMakeFiles/fractol.dir/depend:
-	cd /Users/jbashiri/Desktop/untitled/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jbashiri/Desktop/untitled /Users/jbashiri/Desktop/untitled /Users/jbashiri/Desktop/untitled/cmake-build-debug /Users/jbashiri/Desktop/untitled/cmake-build-debug /Users/jbashiri/Desktop/untitled/cmake-build-debug/CMakeFiles/fractol.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jbashiri/Desktop/fractol/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jbashiri/Desktop/fractol /Users/jbashiri/Desktop/fractol /Users/jbashiri/Desktop/fractol/cmake-build-debug /Users/jbashiri/Desktop/fractol/cmake-build-debug /Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles/fractol.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fractol.dir/depend
 

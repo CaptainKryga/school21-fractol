@@ -20,6 +20,11 @@ int				expose(void *param)
 	exit(0);
 }
 
+/*
+ * key_press == использование клавы
+ * close == закрытие окна на крестик красный
+ * expose == ?
+ */
 void			controls(t_window *win)
 {
 	mlx_hook(win->win, 2, 0, key_press, win);
@@ -32,20 +37,55 @@ int				key_press(int key, void *fdf)
 	t_window	*win;
 
 	win = fdf;
+    /*
+    * кнопки реализованы
+    */
 	if (key == MAIN_PAD_ESC)
 		exit(0);
-	if (key == NUM_PAD_PLUS)
+	else if (key == NUM_PAD_PLUS)
 	{
-		win->var = restart_var(win);
-		printf("w:%f\n", win->var.zoom_min_x);
-//		win->img_x += 100;
-		win->var.zoom_min_x += 0.1;
-		win->var.zoom_max_x -= 0.1;
-		win->var.zoom_min_y += 0.1;
-		win->var.zoom_max_y -= 0.1;
-		mlx_clear_window(win->mlx, win->win);
-		printf("w:%f\n", win->var.zoom_min_x);
+		win->var.zoom_min_x += 0.05;
+		win->var.zoom_max_x -= 0.05;
+		win->var.zoom_min_y += 0.05;
+		win->var.zoom_max_y -= 0.05;
+	}
+	else if (key == NUM_PAD_MINUS)
+    {
+        win->var.zoom_min_x -= 0.05;
+        win->var.zoom_max_x += 0.05;
+        win->var.zoom_min_y -= 0.05;
+        win->var.zoom_max_y += 0.05;
+    }
+	else if (key == ARROW_UP)
+    {
+        win->var.zoom_min_y += 0.05;
+        win->var.zoom_max_y += 0.05;
+    }
+    else if (key == ARROW_DOWN)
+    {
+        win->var.zoom_min_y -= 0.05;
+        win->var.zoom_max_y -= 0.05;
+    }
+    else if (key == ARROW_LEFT)
+    {
+        win->var.zoom_min_x += 0.05;
+        win->var.zoom_max_x += 0.05;
+    }
+    else if (key == ARROW_RIGHT)
+    {
+        win->var.zoom_min_x -= 0.05;
+        win->var.zoom_max_x -= 0.05;
+    }
+    else
+        return (0);
+    mlx_clear_window(win->mlx, win->win);
+    if (win->typeFractol == 1)
+	{
 		mandelbrot(win);
+	}
+    else if (win->typeFractol == 2)
+	{
+    	julia(win);
 	}
 	return (0);
 }

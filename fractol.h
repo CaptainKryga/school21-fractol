@@ -20,8 +20,7 @@
 # include <fcntl.h>
 # include <mlx.h>
 # include <math.h>
-# define SIZEX 800
-# define SIZEY 800
+# define SIZE 1000
 #include <stdio.h>
 
 typedef struct              s_color
@@ -33,25 +32,20 @@ typedef struct              s_color
 
 typedef struct		s_var
 {
-	int				x;
-	int				y;
-	double			complex_x;
-	double			complex_y;
-	double			Zx;
-	double			Zy;
-	double			Zx2;
-	double			Zy2;
-	int				i;
-	double			zoom_min_x;
-	double			zoom_max_x;
-	double			zoom_min_y;
-	double			zoom_max_y;
-	double			pixel_width;
-	double			pixel_height;
-	int				iteration;
-	int				iterations_max;
-	double 			EscapeRadius;
-	double 			ER2;
+	int				y;//верхняя итерация
+	int				x;//нижняя итерация
+
+	double			dx;//числа формулы фрактала
+	double			dy2;//числа формулы фрактала
+	double			dy;//числа формулы фрактала
+	double			dx2;//числа формулы фрактала
+
+	double			zoom;
+	double			x1;
+	double			y1;
+
+	int				iteration;//итерация просчета Fractol
+	int				iterations_max;//максимальная итерация
 }					t_var;
 
 typedef struct		s_window
@@ -59,40 +53,41 @@ typedef struct		s_window
 	void			*mlx;
 	void			*win;
 	void			*img;
-	int 			img_x;
-	int 			img_y;
 	int				*data;
+	int 			i;
+	int				typeFractol;
 	t_var			var;
 }					t_window;
 
 /*
  * malloc
  */
-t_window			*inicialization_win();
-t_var				inicialization_var();
-t_var		restart_var(t_window *win);
+t_var			init_julia();
+t_var			init_malderbrot();
+t_window		*inicialization_win(char *name);
 
 /*
  * support
  */
-void				ft_error(int error);
-void				ft_usage();
-
+void			ft_error(int error);
+void			ft_usage();
+int 			check_name(char *name);
 /*
  * fractol
  */
-int					main(int argc, char **argv);
+int				main(int argc, char **argv);
 
 /*
  * options
  */
-void				controls(t_window *win);
-int					key_press(int key, void *fdf);
+void			controls(t_window *win);
+int				key_press(int key, void *fdf);
 
 /*
  * fractals
  */
-void		mandelbrot(t_window *win);
+void			mandelbrot(t_window *win);
+void			julia(t_window *win);
 
 
 #endif
