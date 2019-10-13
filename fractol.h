@@ -23,12 +23,10 @@
 # define SIZE 1000
 #include <stdio.h>
 
-typedef struct              s_color
-{
-	int                     red;
-	int                     green;
-	int                     blue;
-}                           t_color;
+//cr = dy
+//ci = dy2
+//zr = dx
+//zi = dx2
 
 typedef struct		s_var
 {
@@ -46,6 +44,8 @@ typedef struct		s_var
 
 	int				iteration;//итерация просчета Fractol
 	int				iterations_max;//максимальная итерация
+
+	int				colour;
 }					t_var;
 
 typedef struct		s_window
@@ -72,10 +72,6 @@ t_window		*inicialization_win(char *name);
 void			ft_error(int error);
 void			ft_usage();
 int 			check_name(char *name);
-/*
- * fractol
- */
-int				main(int argc, char **argv);
 
 /*
  * options
@@ -88,6 +84,19 @@ int				key_press(int key, void *fdf);
  */
 void			mandelbrot(t_window *win);
 void			julia(t_window *win);
+t_var			init_chameleon();
+void			chameleon(t_window *win);
+t_var		init_burningship();
+void		burningship(t_window *win);
+
+/*
+ * main.c
+ */
+void			fractol_loop(t_window *win);
+void			fractol_while(t_window *win);
+void			fractol_paint(t_window *win);
+void			fractol_initialization(t_window *win);
+int				main(int argc, char **argv);
 
 
 #endif

@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/jbashiri/Desktop/fractol/fractol_burningship.c" "/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles/fractol.dir/fractol_burningship.c.o"
+  "/Users/jbashiri/Desktop/fractol/fractol_chameleon.c" "/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles/fractol.dir/fractol_chameleon.c.o"
   "/Users/jbashiri/Desktop/fractol/fractol_julia.c" "/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles/fractol.dir/fractol_julia.c.o"
   "/Users/jbashiri/Desktop/fractol/fractol_mandelbrot.c" "/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles/fractol.dir/fractol_mandelbrot.c.o"
   "/Users/jbashiri/Desktop/fractol/functions_change_color.c" "/Users/jbashiri/Desktop/fractol/cmake-build-debug/CMakeFiles/fractol.dir/functions_change_color.c.o"

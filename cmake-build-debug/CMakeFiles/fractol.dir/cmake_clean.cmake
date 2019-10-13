@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fractol.dir/fractol_burningship.c.o"
+  "CMakeFiles/fractol.dir/fractol_chameleon.c.o"
   "CMakeFiles/fractol.dir/fractol_julia.c.o"
   "CMakeFiles/fractol.dir/fractol_mandelbrot.c.o"
   "CMakeFiles/fractol.dir/functions_change_color.c.o"

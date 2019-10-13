@@ -123,6 +123,60 @@ fractol/fast:
 	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/build
 .PHONY : fractol/fast
 
+fractol_burningship.o: fractol_burningship.c.o
+
+.PHONY : fractol_burningship.o
+
+# target to build an object file
+fractol_burningship.c.o:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/fractol_burningship.c.o
+.PHONY : fractol_burningship.c.o
+
+fractol_burningship.i: fractol_burningship.c.i
+
+.PHONY : fractol_burningship.i
+
+# target to preprocess a source file
+fractol_burningship.c.i:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/fractol_burningship.c.i
+.PHONY : fractol_burningship.c.i
+
+fractol_burningship.s: fractol_burningship.c.s
+
+.PHONY : fractol_burningship.s
+
+# target to generate assembly for a file
+fractol_burningship.c.s:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/fractol_burningship.c.s
+.PHONY : fractol_burningship.c.s
+
+fractol_chameleon.o: fractol_chameleon.c.o
+
+.PHONY : fractol_chameleon.o
+
+# target to build an object file
+fractol_chameleon.c.o:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/fractol_chameleon.c.o
+.PHONY : fractol_chameleon.c.o
+
+fractol_chameleon.i: fractol_chameleon.c.i
+
+.PHONY : fractol_chameleon.i
+
+# target to preprocess a source file
+fractol_chameleon.c.i:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/fractol_chameleon.c.i
+.PHONY : fractol_chameleon.c.i
+
+fractol_chameleon.s: fractol_chameleon.c.s
+
+.PHONY : fractol_chameleon.s
+
+# target to generate assembly for a file
+fractol_chameleon.c.s:
+	$(MAKE) -f CMakeFiles/fractol.dir/build.make CMakeFiles/fractol.dir/fractol_chameleon.c.s
+.PHONY : fractol_chameleon.c.s
+
 fractol_julia.o: fractol_julia.c.o
 
 .PHONY : fractol_julia.o
@@ -2049,6 +2103,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... fractol"
+	@echo "... fractol_burningship.o"
+	@echo "... fractol_burningship.i"
+	@echo "... fractol_burningship.s"
+	@echo "... fractol_chameleon.o"
+	@echo "... fractol_chameleon.i"
+	@echo "... fractol_chameleon.s"
 	@echo "... fractol_julia.o"
 	@echo "... fractol_julia.i"
 	@echo "... fractol_julia.s"

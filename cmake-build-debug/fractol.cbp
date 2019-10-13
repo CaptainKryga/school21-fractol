@@ -93,6 +93,12 @@
 		<Unit filename="/Users/jbashiri/Desktop/fractol/fractol.h">
 			<Option target="fractol"/>
 		</Unit>
+		<Unit filename="/Users/jbashiri/Desktop/fractol/fractol_burningship.c">
+			<Option target="fractol"/>
+		</Unit>
+		<Unit filename="/Users/jbashiri/Desktop/fractol/fractol_chameleon.c">
+			<Option target="fractol"/>
+		</Unit>
 		<Unit filename="/Users/jbashiri/Desktop/fractol/fractol_julia.c">
 			<Option target="fractol"/>
 		</Unit>

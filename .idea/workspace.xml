@@ -12,162 +12,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20a6efaf-b91c-4298-9e94-bf1d7b68b4f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fractol_mandelbrot.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fractol.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/progress.make" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/fractol.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/fractol.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fractol" beforeDir="false" afterPath="$PROJECT_DIR$/fractol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fractol.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fractol.h" beforeDir="false" afterPath="$PROJECT_DIR$/fractol.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fractol.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions_change_color.o" beforeDir="false" afterPath="$PROJECT_DIR$/functions_change_color.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fractol_julia.c" beforeDir="false" afterPath="$PROJECT_DIR$/fractol_julia.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fractol_mandelbrot.c" beforeDir="false" afterPath="$PROJECT_DIR$/fractol_mandelbrot.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions_key_code.c" beforeDir="false" afterPath="$PROJECT_DIR$/functions_key_code.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions_key_code.o" beforeDir="false" afterPath="$PROJECT_DIR$/functions_key_code.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions_malloc.c" beforeDir="false" afterPath="$PROJECT_DIR$/functions_malloc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions_malloc.o" beforeDir="false" afterPath="$PROJECT_DIR$/functions_malloc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions_support.o" beforeDir="false" afterPath="$PROJECT_DIR$/functions_support.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf.a" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_char.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_char.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_float_and_l.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_float_and_l.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_float_upl.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_float_upl.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_h_hh_unsigned_integer.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_h_hh_unsigned_integer.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_h_hh_upx.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_h_hh_upx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_h_hh_x.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_h_hh_x.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_h_o.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_h_o.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_hh_o.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_hh_o.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_j.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_j.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_l_ll_u.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_l_ll_u.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_l_ll_upx.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_l_ll_upx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_l_ll_x.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_l_ll_x.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_l_o.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_l_o.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_ll_o.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_ll_o.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_pointer.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_pointer.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_procent.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_procent.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_str.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_str.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_three.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_three.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_two.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_two.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_u.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_u.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_upx.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_upx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analise_x.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analise_x.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analyse_integer.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analyse_integer.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/analyse_o.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/analyse_o.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/check_flags_di.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/check_flags_di.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/check_flags_upxxuo.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/check_flags_upxxuo.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/check_flags_upxxuo2.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/check_flags_upxxuo2.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/create_struct.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/create_struct.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/float_help.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/float_help.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/float_help_part_two.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/float_help_part_two.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/float_help_part_two_upl.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/float_help_part_two_upl.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/float_help_upl.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/float_help_upl.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/ft_litoa.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/ft_litoa.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/ft_llitoa.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/ft_llitoa.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/ft_printf.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/ft_printf.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/ft_printf_three.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/ft_printf_three.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/ft_printf_two.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/ft_printf_two.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/ft_width_for_int.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/ft_width_for_int.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_atoi.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_atoi.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_atoi_error.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_atoi_error.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_atoi_hex.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_atoi_hex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_bzero.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_bzero.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_copyuntil.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_copyuntil.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_isalnum.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_isalnum.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_isalpha.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_isalpha.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_isascii.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_isascii.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_isdigit.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_isdigit.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_isprint.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_isprint.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_itoa.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_itoa.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_lstadd.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_lstadd.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_lstdel.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_lstdel.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_lstdelone.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_lstdelone.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_lstiter.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_lstiter.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_lstmap.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_lstmap.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_lstnew.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_lstnew.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_memalloc.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_memalloc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_memccpy.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_memccpy.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_memchr.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_memchr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_memcmp.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_memcmp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_memcpy.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_memcpy.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_memdel.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_memdel.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_memmove.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_memmove.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_memset.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_memset.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_power.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_power.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_putchar.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_putchar.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_putchar_fd.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_putchar_fd.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_putendl.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_putendl.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_putendl_fd.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_putendl_fd.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_putnbr.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_putnbr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_putnbr_fd.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_putnbr_fd.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_putstr.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_putstr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_putstr_fd.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_putstr_fd.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strcat.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strcat.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strchr.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strchr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strclr.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strclr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strcmp.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strcmp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strcpy.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strcpy.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strdel.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strdel.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strdup.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strdup.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strequ.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strequ.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_striter.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_striter.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_striteri.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_striteri.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strjoin.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strjoin.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strjoinch.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strjoinch.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strlcat.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strlcat.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strlen.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strlen.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strmap.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strmap.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strmapi.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strmapi.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strncat.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strncat.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strncmp.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strncmp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strncpy.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strncpy.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strnequ.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strnequ.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strnew.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strnew.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strnstr.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strnstr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strrchr.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strrchr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strsplit.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strsplit.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strstr.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strstr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strsub.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strsub.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_strtrim.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_strtrim.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_tolower.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_tolower.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/ft_toupper.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/ft_toupper.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/get_next_line.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/libft/get_next_line.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/new.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/new.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/print_null_i.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/print_null_i.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/print_pointer.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/print_pointer.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/print_string.o" beforeDir="false" afterPath="$PROJECT_DIR$/libftprintf/print_string.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mandelbrot.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -195,14 +57,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45499688">
+    <splitter split-orientation="horizontal" split-proportion="0.47110093">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+                <state relative-caret-position="1035">
+                  <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -210,8 +72,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/fractol_mandelbrot.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1095">
-                  <caret line="73" selection-start-line="73" selection-end-line="73" />
+                <state relative-caret-position="570">
+                  <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fractol_burningship.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1053">
+                  <caret line="93" selection-start-line="93" selection-end-line="96" selection-end-column="73" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fractol_chameleon.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="77" selection-start-column="77" selection-end-column="77" />
                 </state>
               </provider>
             </entry>
@@ -219,8 +99,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/fractol_julia.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
-                  <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+                <state relative-caret-position="870">
+                  <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
                 </state>
               </provider>
             </entry>
@@ -232,8 +112,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/fractol.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1202">
-                  <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+                <state relative-caret-position="1158">
+                  <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
@@ -241,8 +121,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/functions_malloc.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+                <state relative-caret-position="210">
+                  <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -250,8 +130,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/functions_key_code.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1067">
-                  <caret line="80" selection-start-line="80" selection-end-line="80" />
+                <state relative-caret-position="990">
+                  <caret line="66" selection-start-line="66" selection-end-line="66" />
                 </state>
               </provider>
             </entry>
@@ -299,9 +179,10 @@
       <find>dx</find>
       <find>SIZEX</find>
       <find>SIZEY</find>
+      <find>cr</find>
+      <find>ci</find>
       <find>zr</find>
       <find>zi</find>
-      <find>cr</find>
       <find>ftol-&gt;</find>
     </findStrings>
   </component>
@@ -313,12 +194,14 @@
       <list>
         <option value="$PROJECT_DIR$/fractol.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/functions_malloc.c" />
         <option value="$PROJECT_DIR$/functions_key_code.c" />
+        <option value="$PROJECT_DIR$/functions_malloc.c" />
+        <option value="$PROJECT_DIR$/fractol_burningship.c" />
+        <option value="$PROJECT_DIR$/fractol_chameleon.c" />
         <option value="$PROJECT_DIR$/fractol_julia.c" />
+        <option value="$PROJECT_DIR$/fractol.h" />
         <option value="$PROJECT_DIR$/fractol_mandelbrot.c" />
         <option value="$PROJECT_DIR$/main.c" />
-        <option value="$PROJECT_DIR$/fractol.h" />
       </list>
     </option>
   </component>
@@ -406,12 +289,12 @@
       <workItem from="1570966142458" duration="70000" />
       <workItem from="1570966241932" duration="457000" />
       <workItem from="1570966739824" duration="8181000" />
-      <workItem from="1570980761045" duration="4096000" />
+      <workItem from="1570980761045" duration="9560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38365000" />
+    <option name="totallyTimeSpent" value="43829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -436,7 +319,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32962668" />
-      <window_info active="true" anchor="right" id="Terminal" order="4" visible="true" weight="0.225973" />
+      <window_info active="true" anchor="right" id="Terminal" order="4" visible="true" weight="0.21008737" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12907068" />
@@ -490,34 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions_key_code.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1067">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions_malloc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fractol_julia.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fractol_mandelbrot.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -525,17 +380,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
+    <entry file="file://$PROJECT_DIR$/functions_key_code.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="990">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions_malloc.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fractol_julia.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fractol_burningship.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="93" selection-start-line="93" selection-end-line="96" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fractol_chameleon.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="77" selection-start-column="77" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fractol.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1202">
-          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+        <state relative-caret-position="1158">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fractol_mandelbrot.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
         </state>
       </provider>
     </entry>

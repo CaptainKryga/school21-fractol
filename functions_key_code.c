@@ -44,37 +44,27 @@ int				key_press(int key, void *fdf)
 		exit(0);
 	else if (key == NUM_PAD_PLUS)
 	{
-		win->var.zoom_min_x += 0.05;
-		win->var.zoom_max_x -= 0.05;
-		win->var.zoom_min_y += 0.05;
-		win->var.zoom_max_y -= 0.05;
+
 	}
 	else if (key == NUM_PAD_MINUS)
     {
-        win->var.zoom_min_x -= 0.05;
-        win->var.zoom_max_x += 0.05;
-        win->var.zoom_min_y -= 0.05;
-        win->var.zoom_max_y += 0.05;
+
     }
 	else if (key == ARROW_UP)
     {
-        win->var.zoom_min_y += 0.05;
-        win->var.zoom_max_y += 0.05;
+
     }
     else if (key == ARROW_DOWN)
     {
-        win->var.zoom_min_y -= 0.05;
-        win->var.zoom_max_y -= 0.05;
+
     }
     else if (key == ARROW_LEFT)
     {
-        win->var.zoom_min_x += 0.05;
-        win->var.zoom_max_x += 0.05;
+
     }
     else if (key == ARROW_RIGHT)
     {
-        win->var.zoom_min_x -= 0.05;
-        win->var.zoom_max_x -= 0.05;
+
     }
     else
         return (0);
