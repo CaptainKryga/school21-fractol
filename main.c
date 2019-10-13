@@ -36,19 +36,20 @@ void			fractol_initialization(t_window *win)
 
 void			fractol_paint(t_window *win)
 {
-	if (win->var.iteration == win->var.iterations_max)
+	if (win->var->iteration == win->var->iterations_max)
 		win->data[win->i] = 0xFFFFFF;
 	else
-		win->data[win->i] = win->var.colour * win->var.iteration;
+		win->data[win->i] = win->var->colour * win->var->iteration;
 }
 
 void			fractol_while(t_window *win)
 {
 	win->i = 0;
-	while (win->var.y < SIZE)
+	win->var->y = 0;
+	while (win->var->y < SIZE)
 	{
-		win->var.x = 0;
-		while (win->var.x < SIZE)
+		win->var->x = 0;
+		while (win->var->x < SIZE)
 		{
 			if (win->typeFractol == 1)
 				mandelbrot(win);
@@ -59,7 +60,7 @@ void			fractol_while(t_window *win)
 			else if (win->typeFractol == 4)
 				burningship(win);
 		}
-		win->var.y++;
+		win->var->y++;
 	}
 	mlx_put_image_to_window(win->mlx, win->win, win->img, 0, 0);
 }

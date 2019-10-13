@@ -21,8 +21,8 @@ t_window    *inicialization_win(char *name)
 
 	if (!(win = (t_window*)malloc(sizeof(t_window))))
 		exit(0);
-	//if (!(win->var = (t_var*)malloc(sizeof(t_var))))
-//		exit(0);
+	if (!(win->var = (t_var*)malloc(sizeof(t_var))))
+		exit(0);
 	size_line = SIZE * SIZE;
 	bpp = 8;
 	endian = 0;

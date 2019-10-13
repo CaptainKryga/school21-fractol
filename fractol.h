@@ -58,16 +58,16 @@ typedef struct		s_window
 	int				typeFractol;
 	int 			flag_zoom;
 	int 			flag_mouse;
-	t_var			var;
+	t_var			*var;
 }					t_window;
 
 /*
  * malloc
  */
-t_var			init_julia();
-t_var			init_malderbrot();
-t_var			init_burningship();
-t_var			init_chameleon();
+t_var			*init_julia();
+t_var			*init_malderbrot();
+t_var			*init_burningship();
+t_var			*init_chameleon();
 t_window		*inicialization_win(char *name);
 
 /*
