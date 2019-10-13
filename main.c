@@ -45,6 +45,7 @@ void			fractol_paint(t_window *win)
 void			fractol_while(t_window *win)
 {
 	win->i = 0;
+	win->var.y = 0;
 	while (win->var.y < SIZE)
 	{
 		win->var.x = 0;

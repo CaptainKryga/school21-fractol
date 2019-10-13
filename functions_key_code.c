@@ -35,22 +35,22 @@ int				key_press(int key, void *fdf)
 		exit(0);
 	if (key == ARROW_UP)
 	{
-		win->var.x1 -= 30 / win->var.zoom;
+		win->var.y1 += 30 / win->var.zoom;
 		printf("up\n");
 	}
     if (key == ARROW_DOWN)
 	{
-		win->var.x1 -= 30 / win->var.zoom;
+		win->var.y1 -= 30 / win->var.zoom;
 		printf("down\n");
 	}
     if (key == ARROW_LEFT)
 	{
-		win->var.y1 -= 30 / win->var.zoom;
+		win->var.x1 += 30 / win->var.zoom;
 		printf("left\n");
 	}
     if (key == ARROW_RIGHT)
 	{
-		win->var.y1 -= 30 / win->var.zoom;
+		win->var.x1 -= 30 / win->var.zoom;
 		printf("right\n");
 	}
     mlx_clear_window(win->mlx, win->win);
