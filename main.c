@@ -26,7 +26,7 @@ void			fractol_loop(t_window *win)
 void			fractol_init(t_window *win)
 {
 	if (win->typeFractol == 1)
-		win->var = init_mandelbrot(win->flag_zoom);
+		win->var = init_mandelbrot();
 	else if (win->typeFractol == 2)
 		win->var = init_julia();
 	else if (win->typeFractol == 3)

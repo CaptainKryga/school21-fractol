@@ -32,7 +32,7 @@ int		check_name(char *name)
 	exit(0);
 }
 
-int				expose()
+int		expose()
 {
 	exit(0);
 }

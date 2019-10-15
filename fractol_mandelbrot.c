@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-t_var		init_mandelbrot()//переписать
+t_var		init_mandelbrot()
 {
 	t_var var;
 
@@ -41,10 +41,11 @@ void		mandelbrot(t_window *win)
 	win->var.dx = 0;
 	win->var.dx2 = 0;
 	win->var.iteration = 0;
-	while(win->var.dx * win->var.dx + win->var.dx2 * win->var.dx2 < 4 &&
+	while (win->var.dx * win->var.dx + win->var.dx2 * win->var.dx2 < 4 &&
 		win->var.iteration < win->var.iterations_max)
 	{
-		tmp = win->var.dx * win->var.dx - win->var.dx2 * win->var.dx2 + win->var.dy;
+		tmp = win->var.dx * win->var.dx - win->var.dx2 * win->var.dx2 +
+			win->var.dy;
 		win->var.dx2 = 2.0 * win->var.dx * win->var.dx2 + win->var.dy2;
 		win->var.dx = tmp;
 		fractol_paint(win);

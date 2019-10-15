@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jbashiri <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   dyeated: 2019/10/13 20:12:46 by jbashiri          #+#    #+#             */
-/*   Updated: 2019/10/13 20:12:47 by jbashiri         ###   ########.fr       */
+/*   Created: 2019/10/15 21:01:18 by jbashiri          #+#    #+#             */
+/*   Updated: 2019/10/15 21:01:20 by jbashiri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,12 @@ void		chameleon(t_window *win)
 	win->var.dx = win->var.x / win->var.zoom + win->var.x1;
 	win->var.dx2 = win->var.y / win->var.zoom + win->var.y1;
 	win->var.iteration = 0;
-	while(win->var.dx * win->var.dx + win->var.dx2 * win->var.dx2 < 4 &&
+	while (win->var.dx * win->var.dx + win->var.dx2 * win->var.dx2 < 4 &&
 		win->var.iteration < win->var.iterations_max)
 	{
 		tmp = win->var.dx;
-		win->var.dx = win->var.dx * win->var.dx - win->var.dx2 * win->var.dx2 + win->var.dy;
+		win->var.dx = win->var.dx * win->var.dx - win->var.dx2 * win->var.dx2 +
+			win->var.dy;
 		win->var.dx2 = -2 * win->var.dx2 * tmp + win->var.dy2;
 		win->var.iteration++;
 	}

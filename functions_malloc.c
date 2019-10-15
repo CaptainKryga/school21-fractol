@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-t_window    *init_win(char *name)
+t_window	*init_win(char *name)
 {
 	t_window *win;
 	int size_line;
@@ -21,8 +21,6 @@ t_window    *init_win(char *name)
 
 	if (!(win = (t_window*)malloc(sizeof(t_window))))
 		exit(0);
-	//if (!(win->var = (t_var*)malloc(sizeof(t_var))))
-//		exit(0);
 	size_line = SIZE * SIZE;
 	bpp = 8;
 	endian = 0;
@@ -36,5 +34,3 @@ t_window    *init_win(char *name)
 	win->flag_mouse = 0;
 	return (win);
 }
-
-

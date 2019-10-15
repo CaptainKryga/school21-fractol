@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-int				key_press(int key, void *fdf)
+int		key_press(int key, void *fdf)
 {
 	t_window	*win;
 
@@ -21,14 +21,14 @@ int				key_press(int key, void *fdf)
 		exit(0);
 	if (key == ARROW_UP)
 		win->var.y1 += 30 / win->var.zoom;
-    if (key == ARROW_DOWN)
+	if (key == ARROW_DOWN)
 		win->var.y1 -= 30 / win->var.zoom;
-    if (key == ARROW_LEFT)
+	if (key == ARROW_LEFT)
 		win->var.x1 += 30 / win->var.zoom;
-    if (key == ARROW_RIGHT)
+	if (key == ARROW_RIGHT)
 		win->var.x1 -= 30 / win->var.zoom;
-    key_press_two(key, fdf);
-    mlx_clear_window(win->mlx, win->win);
+	key_press_two(key, fdf);
+	mlx_clear_window(win->mlx, win->win);
 	fractol_while(win);
 	return (0);
 }
@@ -60,7 +60,7 @@ void	key_press_two(int key, void *fdf)
 	}
 }
 
-void	zoominorout(int keys, int x, int y, t_window *win)
+void	zoom_in_or_out(int keys, int x, int y, t_window *win)
 {
 	double new_x;
 	double new_y;
@@ -90,7 +90,7 @@ void	mouse_key(int keys, int x, int y, t_window *win)
 			win->flag_mouse = 1;
 	}
 	if (keys == 4 || keys == 5)
-		zoominorout(keys, x, y, win);
+		zoom_in_or_out(keys, x, y, win);
 }
 
 void	mouse_julia(int x, int y, t_window *win)
