@@ -12,11 +12,8 @@
 
 #include "fractol.h"
 
-int				expose(void *param)
+int				expose()
 {
-	t_window	*win;
-
-	win = param;
 	exit(0);
 }
 
@@ -41,6 +38,26 @@ int				key_press(int key, void *fdf)
 		win->var.x1 += 30 / win->var.zoom;
     if (key == ARROW_RIGHT)
 		win->var.x1 -= 30 / win->var.zoom;
+    if (key == MAIN_PAD_1)
+	{
+    	win->typeFractol = 1;
+		fractol_initialization(win);
+	}
+	if (key == MAIN_PAD_2)
+	{
+		win->typeFractol = 2;
+		fractol_initialization(win);
+	}
+	if (key == MAIN_PAD_3)
+	{
+		win->typeFractol = 3;
+		fractol_initialization(win);
+	}
+	if (key == MAIN_PAD_4)
+	{
+		win->typeFractol = 4;
+		fractol_initialization(win);
+	}
     mlx_clear_window(win->mlx, win->win);
 	fractol_while(win);
 	return (0);

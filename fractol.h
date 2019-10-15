@@ -22,8 +22,6 @@
 # include <math.h>
 
 # define SIZE 900
-# define THREAD_NUMBER 16
-# define THREAD_WIDTH (SIZE / THREAD_NUMBER)
 
 //cr = dy
 //ci = dy2
@@ -84,7 +82,7 @@ int 			check_name(char *name);
  * options
  */
 int				key_press(int key, void *fdf);
-int				expose(void *param);
+int				expose();
 
 /*
  * fractals

@@ -28,6 +28,7 @@ t_var		InitJulia()
 	var.y1 = -1.9;
 	var.iteration = 0;
 	var.iterations_max = 200;
+	var.colour = 256;
 	return (var);
 }
 

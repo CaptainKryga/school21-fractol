@@ -17,7 +17,7 @@ void			fractol_loop(t_window *win)
 	fractol_while(win);
 	mlx_hook(win->win, 2, 0, key_press, win);
 	mlx_hook(win->win, 17, 0, close, win);
-	mlx_hook(win->win, 17, 0, expose, win);
+	mlx_hook(win->win, 17, 0, expose, NULL);
 	mlx_hook(win->win, 4, 0, (void *)mouse_key, win);
 	mlx_hook(win->win, 6, 0, (void *)julia_mouse, win);
 	mlx_loop(win->mlx);
