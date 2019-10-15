@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-t_var		InitBurningShip()
+t_var		init_burning_ship()
 {
 	t_var var;
 

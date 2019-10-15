@@ -13,7 +13,7 @@
 #include "fractol.h"
 # include "pthread.h"
 
-void    ft_usage()
+void    usage()
 {
 	ft_printf("./fractol [mandelbrot or julia or burningship or chameleon]\n");
 	exit(0);
@@ -30,5 +30,9 @@ int 			check_name(char *name)
 	else if (!ft_strcmp(name, "burningship") || !ft_strcmp(name, "Burningship") ||
 			 !ft_strcmp(name, "Ship") || !ft_strcmp(name, "ship") || !ft_strcmp(name, "4"))
 		return (4);
-	return (0);
+	else
+	{
+		usage();
+		exit(0);
+	}
 }

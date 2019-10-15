@@ -62,48 +62,31 @@ typedef struct		s_window
 	t_var			var;
 }					t_window;
 
-/*
- * malloc
- */
-t_var			InitJulia();
-t_var			InitMandelbrot();
-t_var			InitBurningShip();
-t_var			InitChameleon();
-t_window		*inicialization_win(char *name);
+t_var			init_julia();
+t_var			init_mandelbrot();
+t_var			init_burning_ship();
+t_var			init_chameleon();
+t_window		*init_win(char *name);
 
-/*
- * support
- */
-void			ft_error(int error);
-void			ft_usage();
+void			usage();
 int 			check_name(char *name);
 
-/*
- * options
- */
 int				key_press(int key, void *fdf);
 int				expose();
 
-/*
- * fractals
- */
 void			mandelbrot(t_window *win);
 void			julia(t_window *win);
 void			chameleon(t_window *win);
 void			burningship(t_window *win);
 
-/*
- * main.c
- */
 void			fractol_loop(t_window *win);
 void			fractol_while(t_window *win);
 void			fractol_paint(t_window *win);
-void			fractol_initialization(t_window *win);
+void			fractol_init(t_window *win);
 int				main(int argc, char **argv);
 
-
 void			mouse_key(int keys, int x, int y, t_window *win);
-void			julia_mouse(int x, int y, t_window *win);
+void			mouse_julia(int x, int y, t_window *win);
 
 
 #endif

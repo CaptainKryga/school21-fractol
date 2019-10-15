@@ -41,22 +41,22 @@ int				key_press(int key, void *fdf)
     if (key == MAIN_PAD_1)
 	{
     	win->typeFractol = 1;
-		fractol_initialization(win);
+		fractol_init(win);
 	}
 	if (key == MAIN_PAD_2)
 	{
 		win->typeFractol = 2;
-		fractol_initialization(win);
+		fractol_init(win);
 	}
 	if (key == MAIN_PAD_3)
 	{
 		win->typeFractol = 3;
-		fractol_initialization(win);
+		fractol_init(win);
 	}
 	if (key == MAIN_PAD_4)
 	{
 		win->typeFractol = 4;
-		fractol_initialization(win);
+		fractol_init(win);
 	}
     mlx_clear_window(win->mlx, win->win);
 	fractol_while(win);
@@ -96,7 +96,7 @@ void	mouse_key(int keys, int x, int y, t_window *win)
 		zoominorout(keys, x, y, win);
 }
 
-void	julia_mouse(int x, int y, t_window *win)
+void	mouse_julia(int x, int y, t_window *win)
 {
 	if (win->flag_mouse == 1)
 	{

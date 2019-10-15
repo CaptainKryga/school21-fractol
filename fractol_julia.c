@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-t_var		InitJulia()
+t_var		init_julia()
 {
 	t_var var;
 

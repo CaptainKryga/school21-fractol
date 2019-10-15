@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-t_window    *inicialization_win(char *name)
+t_window    *init_win(char *name)
 {
 	t_window *win;
 	int size_line;

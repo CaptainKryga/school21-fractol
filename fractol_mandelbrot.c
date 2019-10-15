@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-t_var		InitMandelbrot()//переписать
+t_var		init_mandelbrot()//переписать
 {
 	t_var var;
 

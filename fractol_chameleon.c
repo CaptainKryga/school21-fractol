@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-t_var		InitChameleon()
+t_var		init_chameleon()
 {
 	t_var var;
 

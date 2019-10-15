@@ -19,20 +19,20 @@ void			fractol_loop(t_window *win)
 	mlx_hook(win->win, 17, 0, close, win);
 	mlx_hook(win->win, 17, 0, expose, NULL);
 	mlx_hook(win->win, 4, 0, (void *)mouse_key, win);
-	mlx_hook(win->win, 6, 0, (void *)julia_mouse, win);
+	mlx_hook(win->win, 6, 0, (void *)mouse_julia, win);
 	mlx_loop(win->mlx);
 }
 
-void			fractol_initialization(t_window *win)
+void			fractol_init(t_window *win)
 {
 	if (win->typeFractol == 1)
-		win->var = InitMandelbrot(win->flag_zoom);
+		win->var = init_mandelbrot(win->flag_zoom);
 	else if (win->typeFractol == 2)
-		win->var = InitJulia();
+		win->var = init_julia();
 	else if (win->typeFractol == 3)
-		win->var = InitChameleon();
+		win->var = init_chameleon();
 	else if (win->typeFractol == 4)
-		win->var = InitBurningShip();
+		win->var = init_burning_ship();
 	win->flag_zoom = 1;
 }
 
@@ -75,9 +75,9 @@ int				main(int argc, char **argv)
 	t_window	*win;
 
 	if (argc != 2)
-		ft_usage();
-	win = inicialization_win(argv[1]);
-	fractol_initialization(win);
+		usage();
+	win = init_win(argv[1]);
+	fractol_init(win);
 	fractol_loop(win);
 	exit(0);
 }
