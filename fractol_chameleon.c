@@ -27,7 +27,7 @@ t_var		init_chameleon(void)
 	var.y1 = -2;
 	var.iteration = 0;
 	var.iterations_max = 140;
-	var.colour = 256;
+	var.colour = 0xf9542b;
 	return (var);
 }
 

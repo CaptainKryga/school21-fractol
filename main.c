@@ -38,7 +38,7 @@ void			fractol_init(t_window *win)
 void			fractol_paint(t_window *win)
 {
 	if (win->var.iteration == win->var.iterations_max)
-		win->data[win->i] = 0xFFFFFF;
+		win->data[win->i] = win->back_colour;
 	else
 		win->data[win->i] = win->var.colour * win->var.iteration;
 }

@@ -27,7 +27,7 @@ t_var		init_mandelbrot(void)
 	var.y1 = -1.8;
 	var.iteration = 0;
 	var.iterations_max = 255;
-	var.colour = 265;
+	var.colour = 0xFFC125;
 	return (var);
 }
 
@@ -47,8 +47,8 @@ void		mandelbrot(t_window *win)
 			win->var.dy;
 		win->var.dx2 = 2.0 * win->var.dx * win->var.dx2 + win->var.dy2;
 		win->var.dx = tmp;
-		fractol_paint(win);
 		win->var.iteration++;
 	}
+	fractol_paint(win);
 	win->i++;
 }

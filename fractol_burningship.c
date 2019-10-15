@@ -26,8 +26,8 @@ t_var		init_burning_ship(void)
 	var.x1 = -2.2;
 	var.y1 = -2.5;
 	var.iteration = 0;
-	var.iterations_max = 200;
-	var.colour = 265;
+	var.iterations_max = 255;
+	var.colour = 275;
 	return (var);
 }
 

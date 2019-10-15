@@ -52,6 +52,7 @@ typedef struct	s_window
 	int			i;
 	int			type_fractol;
 	int			flag_mouse;
+	int			back_colour;
 	t_var		var;
 }				t_window;
 
@@ -66,6 +67,7 @@ int				check_name(char *name);
 
 int				key_press(int key, void *fdf);
 void			key_press_two(int key, void *win);
+int				change_colour(t_window *fdf);
 void			mouse_key(int keys, int x, int y, t_window *win);
 void			mouse_julia(int x, int y, t_window *win);
 int				expose(void);

@@ -31,5 +31,6 @@ t_window		*init_win(char *name)
 	win->i = 0;
 	win->type_fractol = check_name(name);
 	win->flag_mouse = 0;
+	win->back_colour = 0xFFFFFF;
 	return (win);
 }

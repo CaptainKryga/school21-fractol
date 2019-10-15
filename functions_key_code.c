@@ -17,17 +17,23 @@ int		key_press(int key, void *fdf)
 	t_window	*win;
 
 	win = fdf;
-	if (key == MAIN_PAD_ESC)
+	if (key == SPACE)
+		win->back_colour = change_colour(win);
+	else if (key == MAIN_PAD_ESC)
 		exit(0);
-	if (key == ARROW_UP)
+	else if (key == ARROW_UP)
 		win->var.y1 += 30 / win->var.zoom;
-	if (key == ARROW_DOWN)
+	else if (key == ARROW_DOWN)
 		win->var.y1 -= 30 / win->var.zoom;
-	if (key == ARROW_LEFT)
+	else if (key == ARROW_LEFT)
 		win->var.x1 += 30 / win->var.zoom;
-	if (key == ARROW_RIGHT)
+	else if (key == ARROW_RIGHT)
 		win->var.x1 -= 30 / win->var.zoom;
-	key_press_two(key, fdf);
+	else if (key == MAIN_PAD_1 || key == MAIN_PAD_2 ||
+		key == MAIN_PAD_3 || key == MAIN_PAD_4)
+		key_press_two(key, fdf);
+	else
+		return(0);
 	mlx_clear_window(win->mlx, win->win);
 	fractol_while(win);
 	return (0);
