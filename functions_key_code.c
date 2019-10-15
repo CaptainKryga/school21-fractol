@@ -95,7 +95,7 @@ void	mouse_key(int keys, int x, int y, t_window *win)
 
 void	mouse_julia(int x, int y, t_window *win)
 {
-	if (win->flag_mouse == 1)
+	if (win->flag_mouse == 1 && win->type_fractol == 2)
 	{
 		win->var.dy2 = (double)(x - (double)SIZE / 2) / ((double)SIZE / 2);
 		win->var.dy = (double)(y - (double)SIZE / 2) / ((double)SIZE / 2);
