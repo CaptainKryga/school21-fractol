@@ -12,12 +12,13 @@
 
 #include "fractol.h"
 
-t_var		init_chameleon()
+t_var		InitChameleon()
 {
 	t_var var;
 
 	var.x = 0;
 	var.y = 0;
+	var.max_y = SIZE;
 	var.dx = 0;
 	var.dx2 = 0;
 	var.dy = 0.29;
@@ -48,5 +49,4 @@ void		chameleon(t_window *win)
 	}
 	fractol_paint(win);
 	win->i++;
-	win->var.x++;
 }

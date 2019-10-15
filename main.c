@@ -26,13 +26,13 @@ void			fractol_loop(t_window *win)
 void			fractol_initialization(t_window *win)
 {
 	if (win->typeFractol == 1)
-		win->var = init_malderbrot(win->flag_zoom);
+		win->var = InitMandelbrot(win->flag_zoom);
 	else if (win->typeFractol == 2)
-		win->var = init_julia();
+		win->var = InitJulia();
 	else if (win->typeFractol == 3)
-		win->var = init_chameleon();
+		win->var = InitChameleon();
 	else if (win->typeFractol == 4)
-		win->var = init_burningship();
+		win->var = InitBurningShip();
 	win->flag_zoom = 1;
 }
 
@@ -48,7 +48,7 @@ void			fractol_while(t_window *win)
 {
 	win->i = 0;
 	win->var.y = 0;
-	while (win->var.y < SIZE)
+	while (win->var.y < win->var.max_y)
 	{
 		win->var.x = 0;
 		while (win->var.x < SIZE)
@@ -61,6 +61,7 @@ void			fractol_while(t_window *win)
 				chameleon(win);
 			else if (win->typeFractol == 4)
 				burningship(win);
+			win->var.x++;
 		}
 		win->var.y++;
 	}

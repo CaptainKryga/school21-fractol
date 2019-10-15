@@ -34,59 +34,33 @@ int				key_press(int key, void *fdf)
 	if (key == MAIN_PAD_ESC)
 		exit(0);
 	if (key == ARROW_UP)
-	{
 		win->var.y1 += 30 / win->var.zoom;
-		printf("up\n");
-	}
     if (key == ARROW_DOWN)
-	{
 		win->var.y1 -= 30 / win->var.zoom;
-		printf("down\n");
-	}
     if (key == ARROW_LEFT)
-	{
 		win->var.x1 += 30 / win->var.zoom;
-		printf("left\n");
-	}
     if (key == ARROW_RIGHT)
-	{
 		win->var.x1 -= 30 / win->var.zoom;
-		printf("right\n");
-	}
     mlx_clear_window(win->mlx, win->win);
 	fractol_while(win);
 	return (0);
 }
 
-void	zoomin(int keys, int x, int y, t_window *win)
+void	zoominorout(int keys, int x, int y, t_window *win)
 {
-	double past_x;
-	double past_y;
+	double new_x;
+	double new_y;
 
-	if (keys == 4)
+	if (keys == 4 || keys == 5)
 	{
-		past_x = (x / win->var.zoom + win->var.x1);
-		past_y = (y / win->var.zoom + win->var.y1);
-		win->var.zoom *= 1.3;
-		win->var.x1 = past_x - (x / win->var.zoom);
-		win->var.y1 = past_y - (y / win->var.zoom);
-		mlx_clear_window(win->mlx, win->win);
-		fractol_while(win);
-	}
-}
-
-void	zoomout(int keys, int x, int y, t_window *win)
-{
-	double past_x;
-	double past_y;
-
-	if (keys == 5)
-	{
-		past_x = (x / win->var.zoom + win->var.x1);
-		past_y = (y / win->var.zoom + win->var.y1);
-		win->var.zoom /= 1.3;
-		win->var.x1 = past_x - (x / win->var.zoom);
-		win->var.y1 = past_y - (y / win->var.zoom);
+		new_x = (x / win->var.zoom + win->var.x1);
+		new_y = (y / win->var.zoom + win->var.y1);
+		if (keys == 4)
+			win->var.zoom *= 1.3;
+		else
+			win->var.zoom /= 1.3;
+		win->var.x1 = new_x - (x / win->var.zoom);
+		win->var.y1 = new_y - (y / win->var.zoom);
 		mlx_clear_window(win->mlx, win->win);
 		fractol_while(win);
 	}
@@ -101,10 +75,8 @@ void	mouse_key(int keys, int x, int y, t_window *win)
 		else
 			win->flag_mouse = 1;
 	}
-	if (keys == 4)
-		zoomin(keys, x, y, win);
-	else if (keys == 5)
-		zoomout(keys, x, y, win);
+	if (keys == 4 || keys == 5)
+		zoominorout(keys, x, y, win);
 }
 
 void	julia_mouse(int x, int y, t_window *win)

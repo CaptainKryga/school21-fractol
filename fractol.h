@@ -20,8 +20,10 @@
 # include <fcntl.h>
 # include <mlx.h>
 # include <math.h>
-# define SIZE 1000
-#include <stdio.h>
+
+# define SIZE 900
+# define THREAD_NUMBER 16
+# define THREAD_WIDTH (SIZE / THREAD_NUMBER)
 
 //cr = dy
 //ci = dy2
@@ -31,6 +33,7 @@
 typedef struct		s_var
 {
 	int				y;//верхняя итерация
+	int				max_y;//верхняя итерация
 	int				x;//нижняя итерация
 
 	double			dx;//числа формулы фрактала
@@ -64,10 +67,10 @@ typedef struct		s_window
 /*
  * malloc
  */
-t_var			init_julia();
-t_var			init_malderbrot();
-t_var			init_burningship();
-t_var			init_chameleon();
+t_var			InitJulia();
+t_var			InitMandelbrot();
+t_var			InitBurningShip();
+t_var			InitChameleon();
 t_window		*inicialization_win(char *name);
 
 /*

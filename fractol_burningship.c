@@ -12,12 +12,13 @@
 
 #include "fractol.h"
 
-t_var		init_burningship()
+t_var		InitBurningShip()
 {
 	t_var var;
 
 	var.x = 0;
 	var.y = 0;
+	var.max_y = SIZE;
 	var.dx = 0;
 	var.dx2 = 0;
 	var.dy = 0;
@@ -51,5 +52,4 @@ void		burningship(t_window *win)
 		win->var.iteration++;
 	}
 	win->i++;
-	win->var.x++;
 }
