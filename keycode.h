@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FDF_KEYCODE_H
-# define FDF_KEYCODE_H
+#ifndef KEYCODE_H
+# define KEYCODE_H
 
 # define MOUSE_LEFT_BUTTON	1
 # define MOUSE_RIGHT_BUTTON	2

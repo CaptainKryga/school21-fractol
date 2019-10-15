@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FDF_FDF_H
-# define FDF_FDF_H
+#ifndef FRACTOL_H
+# define FRACTOL_H
 
 # include "libftprintf/ft_printf.h"
 # include "libftprintf/libft/libft.h"
@@ -23,57 +23,52 @@
 
 # define SIZE 900
 
-//cr = dy
-//ci = dy2
-//zr = dx
-//zi = dx2
-
-typedef struct		s_var
+typedef struct	s_var
 {
-	int				y;//верхняя итерация
-	int				max_y;//верхняя итерация
-	int				x;//нижняя итерация
+	int			y;
+	int			x;
 
-	double			dx;//числа формулы фрактала
-	double			dy2;//числа формулы фрактала
-	double			dy;//числа формулы фрактала
-	double			dx2;//числа формулы фрактала
+	double		dx;
+	double		dy2;
+	double		dy;
+	double		dx2;
 
-	double			zoom;
-	double			x1;
-	double			y1;
+	double		zoom;
+	double		x1;
+	double		y1;
 
-	int				iteration;//итерация просчета Fractol
-	int				iterations_max;//максимальная итерация
+	int			iteration;
+	int			iterations_max;
 
-	int				colour;
-}					t_var;
+	int			colour;
+}				t_var;
 
-typedef struct		s_window
+typedef struct	s_window
 {
-	void			*mlx;
-	void			*win;
-	void			*img;
-	int				*data;
-	int 			i;
-	int				typeFractol;
-	int 			flag_zoom;
-	int 			flag_mouse;
-	t_var			var;
-}					t_window;
+	void		*mlx;
+	void		*win;
+	void		*img;
+	int			*data;
+	int			i;
+	int			type_fractol;
+	int			flag_mouse;
+	t_var		var;
+}				t_window;
 
-t_var			init_julia();
-t_var			init_mandelbrot();
-t_var			init_burning_ship();
-t_var			init_chameleon();
+t_var			init_julia(void);
+t_var			init_mandelbrot(void);
+t_var			init_burning_ship(void);
+t_var			init_chameleon(void);
 t_window		*init_win(char *name);
 
-void			usage();
-int 			check_name(char *name);
+void			usage(void);
+int				check_name(char *name);
 
 int				key_press(int key, void *fdf);
 void			key_press_two(int key, void *win);
-int				expose();
+void			mouse_key(int keys, int x, int y, t_window *win);
+void			mouse_julia(int x, int y, t_window *win);
+int				expose(void);
 
 void			mandelbrot(t_window *win);
 void			julia(t_window *win);
@@ -85,9 +80,5 @@ void			fractol_while(t_window *win);
 void			fractol_paint(t_window *win);
 void			fractol_init(t_window *win);
 int				main(int argc, char **argv);
-
-void			mouse_key(int keys, int x, int y, t_window *win);
-void			mouse_julia(int x, int y, t_window *win);
-
 
 #endif

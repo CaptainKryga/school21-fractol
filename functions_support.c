@@ -12,7 +12,7 @@
 
 #include "fractol.h"
 
-void	usage()
+void	usage(void)
 {
 	ft_printf("./fractol [mandelbrot or julia or burningship or chameleon]\n");
 	exit(0);
@@ -32,7 +32,7 @@ int		check_name(char *name)
 	exit(0);
 }
 
-int		expose()
+int		expose(void)
 {
 	exit(0);
 }

@@ -12,12 +12,12 @@
 
 #include "fractol.h"
 
-t_window	*init_win(char *name)
+t_window		*init_win(char *name)
 {
-	t_window *win;
-	int size_line;
-	int bpp;
-	int endian;
+	t_window	*win;
+	int			size_line;
+	int			bpp;
+	int			endian;
 
 	if (!(win = (t_window*)malloc(sizeof(t_window))))
 		exit(0);
@@ -29,8 +29,7 @@ t_window	*init_win(char *name)
 	win->img = mlx_new_image(win->mlx, SIZE, SIZE);
 	win->data = (int *)mlx_get_data_addr(win->img, &bpp, &size_line, &endian);
 	win->i = 0;
-	win->typeFractol = check_name(name);
-	win->flag_zoom = 0;
+	win->type_fractol = check_name(name);
 	win->flag_mouse = 0;
 	return (win);
 }

@@ -40,22 +40,22 @@ void	key_press_two(int key, void *fdf)
 	win = fdf;
 	if (key == MAIN_PAD_1)
 	{
-		win->typeFractol = 1;
+		win->type_fractol = 1;
 		fractol_init(win);
 	}
 	if (key == MAIN_PAD_2)
 	{
-		win->typeFractol = 2;
+		win->type_fractol = 2;
 		fractol_init(win);
 	}
 	if (key == MAIN_PAD_3)
 	{
-		win->typeFractol = 3;
+		win->type_fractol = 3;
 		fractol_init(win);
 	}
 	if (key == MAIN_PAD_4)
 	{
-		win->typeFractol = 4;
+		win->type_fractol = 4;
 		fractol_init(win);
 	}
 }

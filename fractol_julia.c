@@ -12,13 +12,12 @@
 
 #include "fractol.h"
 
-t_var		init_julia()
+t_var		init_julia(void)
 {
 	t_var var;
 
 	var.x = 0;
 	var.y = 0;
-	var.max_y = SIZE;
 	var.dx = 0;
 	var.dx2 = 0;
 	var.dy = -0.1;
