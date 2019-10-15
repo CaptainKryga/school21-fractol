@@ -12,17 +12,6 @@
 
 #include "fractol.h"
 
-int				expose()
-{
-	exit(0);
-}
-
-/*
- * key_press == использование клавы
- * close == закрытие окна на крестик красный
- * expose == ?
- */
-
 int				key_press(int key, void *fdf)
 {
 	t_window	*win;
@@ -38,9 +27,20 @@ int				key_press(int key, void *fdf)
 		win->var.x1 += 30 / win->var.zoom;
     if (key == ARROW_RIGHT)
 		win->var.x1 -= 30 / win->var.zoom;
-    if (key == MAIN_PAD_1)
+    key_press_two(key, fdf);
+    mlx_clear_window(win->mlx, win->win);
+	fractol_while(win);
+	return (0);
+}
+
+void	key_press_two(int key, void *fdf)
+{
+	t_window	*win;
+
+	win = fdf;
+	if (key == MAIN_PAD_1)
 	{
-    	win->typeFractol = 1;
+		win->typeFractol = 1;
 		fractol_init(win);
 	}
 	if (key == MAIN_PAD_2)
@@ -58,9 +58,6 @@ int				key_press(int key, void *fdf)
 		win->typeFractol = 4;
 		fractol_init(win);
 	}
-    mlx_clear_window(win->mlx, win->win);
-	fractol_while(win);
-	return (0);
 }
 
 void	zoominorout(int keys, int x, int y, t_window *win)

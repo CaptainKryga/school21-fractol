@@ -11,28 +11,28 @@
 /* ************************************************************************** */
 
 #include "fractol.h"
-# include "pthread.h"
 
-void    usage()
+void	usage()
 {
 	ft_printf("./fractol [mandelbrot or julia or burningship or chameleon]\n");
 	exit(0);
 }
 
-int 			check_name(char *name)
+int		check_name(char *name)
 {
-	if (!ft_strcmp(name, "mandelbrot") || !ft_strcmp(name, "Mandelbrot") || !ft_strcmp(name, "1"))
+	if (!ft_strcmp(name, "mandelbrot") || !ft_strcmp(name, "Mandelbrot"))
 		return (1);
-	else if (!ft_strcmp(name, "julia") || !ft_strcmp(name, "Julia") || !ft_strcmp(name, "2"))
+	else if (!ft_strcmp(name, "julia") || !ft_strcmp(name, "Julia"))
 		return (2);
-	else if (!ft_strcmp(name, "chameleon") || !ft_strcmp(name, "Chameleon") || !ft_strcmp(name, "3"))
+	else if (!ft_strcmp(name, "chameleon") || !ft_strcmp(name, "Chameleon"))
 		return (3);
-	else if (!ft_strcmp(name, "burningship") || !ft_strcmp(name, "Burningship") ||
-			 !ft_strcmp(name, "Ship") || !ft_strcmp(name, "ship") || !ft_strcmp(name, "4"))
+	else if (!ft_strcmp(name, "burningship") || !ft_strcmp(name, "Burningship"))
 		return (4);
-	else
-	{
-		usage();
-		exit(0);
-	}
+	usage();
+	exit(0);
+}
+
+int				expose()
+{
+	exit(0);
 }

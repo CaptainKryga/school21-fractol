@@ -72,6 +72,7 @@ void			usage();
 int 			check_name(char *name);
 
 int				key_press(int key, void *fdf);
+void			key_press_two(int key, void *win);
 int				expose();
 
 void			mandelbrot(t_window *win);

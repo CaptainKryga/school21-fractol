@@ -67,9 +67,7 @@ void			fractol_while(t_window *win)
 	}
 	mlx_put_image_to_window(win->mlx, win->win, win->img, 0, 0);
 }
-/*
- * проверка на левое имя фрактала
- */
+
 int				main(int argc, char **argv)
 {
 	t_window	*win;
